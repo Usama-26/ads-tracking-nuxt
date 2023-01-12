@@ -4,6 +4,9 @@
     <Hero />
     <Services />
     <Story />
+    <CTA />
+    <Testimonials />
+    <Footer />
   </div>
 </template>
 
