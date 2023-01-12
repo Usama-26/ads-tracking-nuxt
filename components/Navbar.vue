@@ -9,6 +9,7 @@
         <img
           src="./../assets/images/ads-tracking-logo.svg"
           alt="Ads Tracking"
+          class="w-48"
         />
       </NuxtLink>
       <nav
