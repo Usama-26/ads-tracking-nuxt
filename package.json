@@ -11,5 +11,9 @@
     "@nuxtjs/tailwindcss": "^6.2.0",
     "nuxt": "3.0.0",
     "nuxt-headlessui": "^1.1.1"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.13",
+    "@splidejs/vue-splide": "^0.6.12"
   }
 }
