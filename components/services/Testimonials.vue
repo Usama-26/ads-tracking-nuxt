@@ -4,14 +4,15 @@
       <h1
         class="text-3xl font-medium title-font text-gray-900 mb-8 text-center"
       >
-        This is what our customers think of us
+        So denken unsere Kunden über uns
       </h1>
 
       <p class="w-3/5 mx-auto font-bold mb-8 text-center">
-        The many positive reviews that we regularly receive show us how
-        satisfied our customers are with our tracking and services. These are
-        just three of more than 100 companies we have successfully worked with
-        since 2017.
+        So denken unsere Kunden über uns Wie zufrieden unsere Kunden mit unseren
+        Tracking und Services sind, zeigen uns die vielen positiven Bewertungen,
+        die uns regelmäßig erreichen. Das sind nur drei von mehr als 100
+        Unternehmen, mit denen wir seit 2017 erfolgreich zusammengearbeitet
+        haben.
       </p>
       <div class="flex flex-wrap justify-around">
         <div class="lg:w-1/4 lg:mb-0 mb-6 p-4 rounded-lg bg-white">
@@ -22,9 +23,9 @@
               src="~/assets/images/testimonial-1.png"
             />
             <p class="leading-relaxed">
-              This is an analytics powerhouse of a service. Amazing people who
-              deliver everything. The best investment we've made in
-              understanding how our businesses are performing.
+              Dies ist ein Analyse-Kraftpaket eines Dienstes. Erstaunliche
+              Menschen, die alles überliefern. Die beste Investition, die wir in
+              das Verständnis der Leistung unserer Geschäfte getätigt haben.
             </p>
             <span
               class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"
@@ -48,9 +49,10 @@
               src="~/assets/images/testimonial-2.jpg"
             />
             <p class="leading-relaxed">
-              Our shop has a complex setup with some external domains. Ads
-              tracking worked great with Google Tag Manager and Analytics 4. The
-              support also helped us a lot with cross-domain tracking.
+              Unser Shop hat ein komplexes Setup mit einigen externen Domains.
+              Das Ads-Tracking hat mit Google Tag Manager und Analytics 4 super
+              funktioniert. Auch beim Cross-Domain-Tracking hat uns der Support
+              sehr geholfen.
             </p>
             <span
               class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"
@@ -74,10 +76,11 @@
               src="~/assets/images/testimonial-3.png"
             />
             <p class="leading-relaxed">
-              These guys are the real deal; We had provided everything to fix
-              our Google Analytics tracking issues with our Shopify store but
-              nothing worked. Not only did they fix GA tracking, they also set
-              up GA4. Just unbelievable.
+              Diese Jungs sind das einzig Wahre; Wir hatten alles zur Verfügung
+              gestellt, um unsere Google Analytics-Tracking-Probleme mit unserem
+              Shopify-Shop zu beheben, aber nichts funktionierte. Sie haben
+              nicht nur das GA-Tracking behoben, sondern auch GA4 eingerichtet.
+              Einfach unglaublich.
             </p>
             <span
               class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"

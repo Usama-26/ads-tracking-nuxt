@@ -11,7 +11,7 @@
         />
       </NuxtLink>
       <!-- Desktop Nav -->
-      <div class="md:flex hidden">
+      <div class="lg:flex hidden">
         <nav
           class="md:ml-auto flex flex-wrap items-center text-base justify-center"
         >
@@ -43,7 +43,7 @@
           KONTAKT
         </button>
       </div>
-      <button type="button" class="md:hidden">
+      <button type="button" class="lg:hidden">
         <Bars3Icon class="w-8 h-8 stroke-green-500" />
       </button>
       <!-- Mobile Nav -->

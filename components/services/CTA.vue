@@ -5,17 +5,19 @@
         class="lg:w-4/5 flex flex-col gap-8 sm:flex-row sm:items-center items-start mx-auto"
       >
         <p class="text-white font-medium">
-          The best analysis software brings nothing if you incorrectly
-          implemented is. It doesn't matter whether the tools are cookie-based,
-          use IP addresses or canvas fingerprinting: First of all, it must be
-          ensured that the tracking solution correctly records the users on all
-          pages.
+          Die beste Analyse-Software bringt nichts, wenn sie falsch
+          implementiert ist. Ganz gleich, ob die Tools cookie-basiert, mittels
+          IP-Adressen oder Canvas-Fingerprinting funktionieren: Zuerst muss
+          sichergestellt werden, dass die Tracking-Lösung die Nutzer auf allen
+          Seiten richtig erfasst.
         </p>
-        <button
-          class="flex-shrink-0 text-white py-4 px-12 focus:outline-none font-bold transition duration-200 rounded-full text-lg mt-10 sm:mt-0 bg-green-600 shadow-md hover:shadow-green-900 active:bg-green-700 active:translate-y-1"
-        >
-          Contact
-        </button>
+        <div class="flex justify-center">
+          <button
+            class="border-2 rounded-full w-72 border-white p-4 text-gray-100 hover:bg-green-600 hover:border-green-600 transition duration-300"
+          >
+            JETZT KONTAKT AUFNEHMEN
+          </button>
+        </div>
       </div>
     </div>
   </section>

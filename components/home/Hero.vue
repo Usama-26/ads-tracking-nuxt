@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="text-white bg-[#34cc81]">
+    <section class="text-gray-100 bg-[#34cc81]">
       <div
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
       >
@@ -11,11 +11,11 @@
             WIR SIND IHR FULL-SERVICE DIENSTLEISTER
           </h3>
           <h1
-            class="title-font sm:text-5xl text-4xl mb-4 font-bold text-white mr-4"
+            class="title-font sm:text-5xl text-4xl mb-4 font-bold text-gray-100 mr-4"
           >
             SERVER­SEITIGES TRACKING
             <br class="inline-block" />
-            <span class="text-gray-900 inline-block my-3"
+            <span class="text-slate-700 inline-block my-3"
               >FÜR DIGITALES WACHSTUM</span
             >
           </h1>
@@ -27,7 +27,7 @@
           </p>
           <div class="flex justify-center">
             <button
-              class="border-2 rounded-full border-white p-4 text-white hover:bg-green-600 hover:border-green-600 transition duration-300"
+              class="border-2 rounded-full border-white p-4 text-gray-100 hover:bg-green-600 hover:border-green-600 transition duration-300"
             >
               KONTAKT AUFNEHMEN
             </button>

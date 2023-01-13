@@ -1,6 +1,7 @@
 <template>
   <div class="bg-gray-100">
     <ServicesHero />
+    <ServicesOurServices />
     <ServicesFeatures />
     <ServicesCTA />
     <ServicesTestimonials />

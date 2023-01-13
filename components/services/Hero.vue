@@ -5,13 +5,13 @@
     >
       <div class="text-left w-full">
         <h1 class="title-font sm:text-4xl text-3xl font-medium text-gray-100">
-          Intelligent tracking concepts for digital growth
+          Intelligente Tracking-Konzepte für digitales Wachstum
         </h1>
         <div class="border-b-4 w-24 border-green-500 inline-block"></div>
         <p class="my-12 leading-relaxed text-gray-100">
-          Web analytics and online marketing data are the basis for digital
-          growth. Only those who analyze their data can effectively optimize
-          digital marketing. Facts count, not gut feelings!
+          Web-Analytics und Online-Marketing-Daten sind die Basis für digitales
+          Wachstum. Nur, wer seine Daten analysiert, kann digitales Marketing
+          effektvoll optimieren. Es zählen Fakten statt Bauchgefühl!
         </p>
       </div>
     </div>

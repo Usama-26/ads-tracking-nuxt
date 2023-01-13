@@ -11,8 +11,8 @@
           class="inline-block h-1 w-20 lg:mx-20 mt-4 rounded bg-green-500"
         ></span>
       </div>
-      <div class="flex flex-wrap lg:gap-0 gap-8 justify-evenly">
-        <div class="lg:w-1/4 w-full">
+      <div class="flex lg:flex-nowrap flex-wrap gap-8 lg:mx-20 mx-8">
+        <div class="lg:w-1/3 w-full">
           <div
             class="flex rounded-xl h-full shadow-lg text-center bg-white p-8 flex-col"
           >
@@ -31,7 +31,7 @@
             </div>
           </div>
         </div>
-        <div class="lg:w-1/4 w-full">
+        <div class="lg:w-1/3 w-full">
           <div
             class="flex rounded-xl h-full shadow-lg text-center bg-white p-8 flex-col"
           >
@@ -50,7 +50,7 @@
             </div>
           </div>
         </div>
-        <div class="lg:w-1/4 w-full">
+        <div class="lg:w-1/3 w-full">
           <div
             class="flex rounded-xl h-full shadow-lg text-center bg-white p-8 flex-col"
           >

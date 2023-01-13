@@ -16,9 +16,9 @@
           More sales & better data – Your advantage with server-side tracking
         </p>
         <button
-          class="uppercase bg-green-500 p-2 my-2 text-white font-bold rounded-full"
+          class="uppercase bg-green-500 p-4 my-2 text-gray-100 font-bold rounded-full"
         >
-          Make Contact
+          KONTAKT AUFNEHMEN
         </button>
       </div>
       <div
@@ -31,27 +31,27 @@
             navigator
           </h2>
           <nav class="list-none mb-10">
-            <li class="hover:translate-x-1 transition duration-500">
+            <li class="hover:translate-x-1 transition duration-300">
               <a class="text-gray-600 hover:text-gray-800 cursor-pointer"
                 >Home</a
               >
             </li>
-            <li class="hover:translate-x-1 transition duration-500">
+            <li class="hover:translate-x-1 transition duration-300">
               <a class="text-gray-600 hover:text-gray-800 cursor-pointer"
                 >Services</a
               >
             </li>
-            <li class="hover:translate-x-1 transition duration-500">
+            <li class="hover:translate-x-1 transition duration-300">
               <a class="text-gray-600 hover:text-gray-800 cursor-pointer"
                 >Customers</a
               >
             </li>
-            <li class="hover:translate-x-1 transition duration-500">
+            <li class="hover:translate-x-1 transition duration-300">
               <a class="text-gray-600 hover:text-gray-800 cursor-pointer"
                 >About us</a
               >
             </li>
-            <li class="hover:translate-x-1 transition duration-500">
+            <li class="hover:translate-x-1 transition duration-300">
               <a class="text-gray-600 hover:text-gray-800 cursor-pointer"
                 >Contact</a
               >
@@ -87,17 +87,17 @@
             company
           </h2>
           <nav class="list-none mb-10">
-            <li class="hover:translate-x-1 transition duration-500">
+            <li class="hover:translate-x-1 transition duration-300">
               <a class="text-gray-600 hover:text-gray-800 cursor-pointer"
                 >Imprint</a
               >
             </li>
-            <li class="hover:translate-x-1 transition duration-500">
+            <li class="hover:translate-x-1 transition duration-300">
               <a class="text-gray-600 hover:text-gray-800 cursor-pointer"
                 >Terms of Service</a
               >
             </li>
-            <li class="hover:translate-x-1 transition duration-500">
+            <li class="hover:translate-x-1 transition duration-300">
               <a class="text-gray-600 hover:text-gray-800 cursor-pointer"
                 >Data Protection</a
               >
@@ -116,7 +116,7 @@
         <span
           class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
         >
-          <a class="text-gray-500">
+          <a href="https://www.facebook.com/AdsTracking" class="text-gray-500">
             <svg
               fill="currentColor"
               stroke-linecap="round"
@@ -131,7 +131,10 @@
             </svg>
           </a>
 
-          <a class="ml-3 text-gray-500">
+          <a
+            href="https://www.instagram.com/adstracking"
+            class="ml-3 text-gray-500"
+          >
             <svg
               fill="none"
               stroke="currentColor"

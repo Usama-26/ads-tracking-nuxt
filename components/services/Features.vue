@@ -3,8 +3,10 @@
     <!-- Know How Section -->
     <section class="text-gray-600 bg-white body-font overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
-        <div class="lg:w-4/5 mx-auto flex flex-wrap">
-          <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+        <div class="mx-auto flex flex-wrap">
+          <div
+            class="lg:w-1/2 w-full order-2 lg:order-1 lg:pr-10 lg:py-6 lg:mb-0"
+          >
             <h2 class="text-md text-green-500 font-bold tracking-widest">
               KNOW-HOW
             </h2>
@@ -52,7 +54,7 @@
           </div>
           <img
             alt="ecommerce"
-            class="lg:w-1/2 w-full lg:h-auto h-64 object-center object-contain rounded"
+            class="lg:w-1/2 w-full lg:order-2 order-1 my-8 object-center object-contain rounded"
             src="~/assets/images/know-how-img.png"
           />
         </div>
@@ -61,36 +63,38 @@
     <!-- Google Tag Manager Section -->
     <section class="text-gray-600 overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
-        <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <div class="mx-auto flex flex-wrap justify-between">
           <img
             alt="ecommerce"
-            class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+            class="lg:w-1/2 w-full object-cover object-center rounded"
             src="~/assets/images/google-tag-manager-banner.png"
           />
           <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <h1 class="text-gray-900 text-4xl title-font font-bold mb-4">
-              A complete Google Tag Manager setup
+              Ein vollständiges Google Tag Manager-Setup
             </h1>
 
             <p class="leading-relaxed text-lg">
-              Ads-Tracking inserts GTM and data layers into your Shopify store
-              within a few days and gets a ready-to-use GTM container, tailored
-              exactly to your store.
+              Ads-Tracking fügt innerhalb von ein paar Tagen GTM- und
+              Datenschichten in Ihren Shopify-Shop ein und erhält einen
+              einsatzbereiten GTM-Container, der genau auf Ihren Shop
+              zugeschnitten ist.
             </p>
-            <ul class="list-disc">
+            <ul class="list-disc lg:m-0 mx-4">
               <li class="my-2">
-                Done for you: setup option where we set everything up for you
+                Für Sie erledigt: Setup-Option, bei der wir alles für Sie
+                einrichten
               </li>
               <li class="my-2">
-                Google Analytics (GA4 + UA), Google Ads, Facebook Pixel and many
-                others
+                Google Analytics (GA4 + UA), Google Ads, Facebook Pixel und
+                viele andere
               </li>
               <li class="my-2">
-                Ready-made GTM container with the most important tags, triggers
-                and variables
+                Vorgefertigter GTM-Container mit den wichtigsten Tags, Triggern
+                und Variablen
               </li>
-              <li class="my-2">Customized special solutions possible</li>
-              <li class="my-2">Testing & Data Validation</li>
+              <li class="my-2">Kundenspezifische Sonderlösungen möglich</li>
+              <li class="my-2">Tests & Datenvalidierung</li>
             </ul>
           </div>
         </div>
@@ -99,32 +103,34 @@
     <!-- Google Analytics 4 -->
     <section class="text-gray-600 bg-white body-font overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
-        <div class="lg:w-4/5 mx-auto flex flex-wrap">
-          <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+        <div class="mx-auto flex flex-wrap">
+          <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 my-6 order-2 lg:order-1">
             <h1 class="text-gray-900 text-4xl title-font font-bold mb-4">
-              Experience in all major marketing disciplines
+              Google Analytics 4 und Universal Analytics
             </h1>
             <p class="leading-relaxed text-lg">
-              Ads Tracking offers a full Google Analytics setup with many custom
-              reports, dimensions and metrics.
+              Ads-Tracking bietet ein vollständiges Google Analytics-Setup mit
+              vielen benutzerdefinierten Berichten, Dimensionen und Metriken.
             </p>
-            <ul class="list-disc">
+            <ul class="list-disc lg:m-0 mx-4">
               <li class="my-2">
-                The recently launched new Google Analytics: GA4
+                Das kürzlich eingeführte, neue Google Analytics: GA4
               </li>
               <li class="my-2">
-                Multiple analytics properties (GA4 + Universal Analytics)
+                Mehrere Analytics-Properties (GA4 + Universal Analytics)
               </li>
-              <li class="my-2">Custom dimensions, metrics and reports</li>
               <li class="my-2">
-                User metrics such as user newness, type, frequency, etc.
+                Benutzerdefinierte Dimensionen, Metriken und Berichte
               </li>
-              <li class="my-2">Testing & Data Validation</li>
+              <li class="my-2">
+                Benutzer Metriken wie Benutzerneuheit, -Typ, -Häufigkeit etc.
+              </li>
+              <li class="my-2">Tests & Datenvalidierung</li>
             </ul>
           </div>
           <img
             alt="ecommerce"
-            class="lg:w-1/2 w-full lg:h-auto h-64 object-center object-contain rounded"
+            class="lg:w-1/2 w-full order-1 lg:order-2 object-center object-contain rounded"
             src="~/assets/images/google-analytics-banner.png"
           />
         </div>
@@ -134,7 +140,7 @@
     <section class="text-gray-600 bg-gray-100 body-font">
       <div class="container px-5 py-24 mx-auto">
         <div
-          class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col"
+          class="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col"
         >
           <img
             src="~/assets/images/google-data-analytics-banner.png"
@@ -142,7 +148,7 @@
             class="lg:w-2/5"
           />
 
-          <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <div class="flex-grow mt-6 sm:mt-0">
             <h2 class="text-gray-900 font-bold text-4xl mb-2">
               Advanced Data Layers
             </h2>
@@ -158,27 +164,30 @@
     <!-- Google Ads Remarketing & Conversions-->
     <section class="text-gray-600 bg-white body-font overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
-        <div class="lg:w-4/5 mx-auto flex flex-wrap">
-          <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+        <div class="mx-auto flex flex-wrap">
+          <div
+            class="lg:w-1/2 w-full lg:pr-10 lg:py-6 my-6 lg:mb-0 lg:order-1 order-2"
+          >
             <h1 class="text-gray-900 text-4xl title-font font-bold mb-4">
               Google Ads Remarketing & Conversions
             </h1>
             <p class="leading-relaxed text-lg">
-              Google Ads integration is crucial for good performance. Ads
-              tracking strengthens your Google Ads setup by connecting data
-              layers and all available data via Google Tag Manager.
+              Die Google Ads-Integration ist entscheidend für eine gute
+              Performance. Ads-Tracking stärkt Ihr Google Ads-Setup, indem es
+              Datenebenen und alle verfügbaren Daten über Google Tag Manager
+              verbindet.
             </p>
-            <ul class="list-disc">
-              <li class="my-2">Remarketing setup tags</li>
-              <li class="my-2">event tracking</li>
-              <li class="my-2">conversion tracking</li>
-              <li class="my-2">product views</li>
-              <li class="my-2">Testing & Data Validation</li>
+            <ul class="list-disc mx-4 lg:m-0">
+              <li class="my-2">Tags für die Remarketing-Einrichtung</li>
+              <li class="my-2">Ereignisverfolgung</li>
+              <li class="my-2">Conversion-Tracking</li>
+              <li class="my-2">Produktansichten</li>
+              <li class="my-2">Tests & Datenvalidierung</li>
             </ul>
           </div>
           <img
             alt="ecommerce"
-            class="lg:w-1/2 w-full lg:h-auto h-64 object-center object-contain rounded"
+            class="lg:w-1/2 w-full order-1 lg:order-2 object-center object-contain rounded"
             src="~/assets/images/google-analytics-banner.png"
           />
         </div>
@@ -187,10 +196,10 @@
     <!-- Facebook Pixel Event -->
     <section class="text-gray-600 bg-white overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
-        <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <div class="mx-auto flex flex-wrap">
           <img
             alt="ecommerce"
-            class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+            class="lg:w-1/2 w-full object-cover object-center rounded"
             src="~/assets/images/facebook-pixel-event-banner.png"
           />
           <div
@@ -201,14 +210,17 @@
             </h1>
 
             <p class="leading-relaxed text-lg">
-              Get all the important events in your Facebook pixel along with
-              your dynamic retargeting lists.
+              Holen Sie sich alle wichtigen Ereignisse in Ihrem Facebook-Pixel
+              zusammen mit Ihren dynamischen Retargeting-Listen.
             </p>
-            <ul class="list-disc">
-              <li class="my-2">event tracking. (add to cart, checkout, buy)</li>
-              <li class="my-2">product views.</li>
-              <li class="my-2">conversion tracking.</li>
-              <li class="my-2">Testing & Data Validation.</li>
+            <ul class="list-disc mx-4 lg:m-0">
+              <li class="my-2">
+                Ereignisverfolgung. (in den Warenkorb legen, zur Kasse gehen,
+                kaufen)
+              </li>
+              <li class="my-2">Produktansichten</li>
+              <li class="my-2">Conversion-Tracking</li>
+              <li class="my-2">Tests & Datenvalidierung.</li>
             </ul>
           </div>
         </div>
@@ -217,27 +229,34 @@
     <!-- Google Data Studio report-->
     <section class="text-gray-600 body-font overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
-        <div class="lg:w-4/5 mx-auto flex flex-wrap">
-          <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+        <div class="mx-auto flex flex-wrap">
+          <div
+            class="lg:w-1/2 w-full lg:pr-10 lg:py-6 my-6 lg:mb-0 lg:order-1 order-2"
+          >
             <h1 class="text-gray-900 text-4xl title-font font-bold mb-4">
-              Google Data Studio report
+              Google Data Studio- Bericht
             </h1>
             <p class="leading-relaxed text-lg">
-              One report to rule them all! We are preparing a customized Google
-              Data Studio report where you can see all the important metrics in
-              one place. The report contains:
+              Ein Bericht, um sie alle zu beherrschen! Wir bereiten einen
+              individuell vorbereiteten Google Data Studio-Bericht vor, in dem
+              Sie alle wichtigen Kennzahlen an einem Ort sehen können. Der
+              Bericht enthält:
             </p>
-            <ul class="list-disc">
-              <li class="my-2">Best/worst performing products.</li>
-              <li class="my-2">Best/worst performing campaigns.</li>
-              <li class="my-2">Geographic Analysis.</li>
-              <li class="my-2">Ecommerce Funnel.</li>
-              <li class="my-2">Many other important metrics.</li>
+            <ul class="list-disc lg:m-0 mx-4">
+              <li class="my-2">
+                Produkte mit der besten/schlechtesten Leistung.
+              </li>
+              <li class="my-2">
+                Kampagnen mit der besten/schlechten Leistung.
+              </li>
+              <li class="my-2">Geografische Analyse.</li>
+              <li class="my-2">E-Commerce-Trichter.</li>
+              <li class="my-2">Viele andere wichtige Metriken.</li>
             </ul>
           </div>
           <img
             alt="ecommerce"
-            class="lg:w-1/2 w-full lg:h-auto h-64 object-center object-contain rounded"
+            class="lg:w-1/2 w-full order-1 lg:order-2 object-center object-contain rounded"
             src="~/assets/images/google-data-studio.png"
           />
         </div>
@@ -246,33 +265,40 @@
     <!-- Audit and setup of data analytics -->
     <section class="text-gray-600 bg-white overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
-        <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <div class="mx-auto flex flex-wrap">
           <img
             alt="ecommerce"
-            class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+            class="lg:w-1/2 w-full object-cover object-center rounded"
             src="~/assets/images/google-data-analytics-banner.png"
           />
           <div
             class="lg:w-1/2 w-full self-center lg:pl-10 lg:py-6 mt-6 lg:mt-0"
           >
             <h1 class="text-gray-900 text-4xl title-font font-bold mb-4">
-              Audit and setup of data analytics
+              Audit und Einrichtung von Datenanalysen
             </h1>
 
             <p class="leading-relaxed text-lg">
-              Our team will be happy to review your current data analysis and
-              set it up according to your individual requirements at no
-              additional cost.
+              Unser Team prüft gerne Ihre aktuellen Datenanalysen und führt die
+              Einrichtung gemäß Ihren individuellen Anforderungen ohne
+              zusätzliche Kosten durch
             </p>
-            <ul class="list-disc">
-              <li class="my-2">Data analysis health check for your accounts</li>
-              <li class="my-2">Analyze the Done-For-You setup option</li>
-              <li class="my-2">Customized, unique solutions for your needs</li>
-              <li class="my-2">Testing & Data Validation</li>
+            <ul class="list-disc mx-4 lg:m-0">
+              <li class="my-2">
+                Datenanalyse-Gesundheitscheck für Ihre Konten
+              </li>
+              <li class="my-2">
+                Analysieren Sie die Done-For-You-Setup-Option
+              </li>
+              <li class="my-2">
+                Maßgeschneiderte, einzigartige Lösungen für Ihre Bedürfnisse
+              </li>
+              <li class="my-2">Tests & Datenvalidierung</li>
             </ul>
             <p>
-              We also provide you with a video recording of our data specialists
-              walking you through your setup and showing you how it works
+              Wir stellen Ihnen auch eine Videoaufzeichnung zur Verfügung, in
+              der unsere Datenspezialisten Sie durch Ihr Setup führen und Ihnen
+              zeigen, wie es funktioniert
             </p>
           </div>
         </div>
