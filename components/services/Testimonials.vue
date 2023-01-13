@@ -15,7 +15,7 @@
         haben.
       </p>
       <div class="flex flex-wrap justify-around">
-        <div class="lg:w-1/4 lg:mb-0 mb-6 p-4 rounded-lg bg-white">
+        <div class="lg:w-1/4 lg:mb-0 mb-6 p-4 rounded-lg bg-white shadow-md">
           <div class="h-full text-center">
             <img
               alt="testimonial"
@@ -41,7 +41,7 @@
             </p>
           </div>
         </div>
-        <div class="lg:w-1/4 lg:mb-0 mb-6 p-4 rounded-lg bg-white">
+        <div class="lg:w-1/4 lg:mb-0 mb-6 p-4 rounded-lg bg-white shadow-md">
           <div class="h-full text-center">
             <img
               alt="testimonial"
@@ -68,7 +68,7 @@
             </p>
           </div>
         </div>
-        <div class="lg:w-1/4 lg:mb-0 p-4 rounded-lg bg-white">
+        <div class="lg:w-1/4 lg:mb-0 p-4 rounded-lg bg-white shadow-md">
           <div class="h-full text-center">
             <img
               alt="testimonial"

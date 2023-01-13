@@ -2,7 +2,7 @@
   <div>
     <!-- Know How Section -->
     <section class="text-gray-600 bg-white body-font overflow-hidden">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 py-20 lg:py-24 mx-auto">
         <div class="mx-auto flex flex-wrap">
           <div
             class="lg:w-1/2 w-full order-2 lg:order-1 lg:pr-10 lg:py-6 lg:mb-0"
@@ -62,7 +62,7 @@
     </section>
     <!-- Google Tag Manager Section -->
     <section class="text-gray-600 overflow-hidden">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 py-20 lg:py-24 mx-auto">
         <div class="mx-auto flex flex-wrap justify-between">
           <img
             alt="ecommerce"
@@ -102,7 +102,7 @@
     </section>
     <!-- Google Analytics 4 -->
     <section class="text-gray-600 bg-white body-font overflow-hidden">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 py-20 lg:py-24 mx-auto">
         <div class="mx-auto flex flex-wrap">
           <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 my-6 order-2 lg:order-1">
             <h1 class="text-gray-900 text-4xl title-font font-bold mb-4">
@@ -138,9 +138,9 @@
     </section>
     <!-- Advanced Data Layers -->
     <section class="text-gray-600 bg-gray-100 body-font">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 py-20 lg:py-24 mx-auto">
         <div
-          class="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col"
+          class="flex items-center mx-auto border-b border-gray-200 sm:flex-row flex-col"
         >
           <img
             src="~/assets/images/google-data-analytics-banner.png"
@@ -163,7 +163,7 @@
     </section>
     <!-- Google Ads Remarketing & Conversions-->
     <section class="text-gray-600 bg-white body-font overflow-hidden">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 py-20 lg:py-24 mx-auto">
         <div class="mx-auto flex flex-wrap">
           <div
             class="lg:w-1/2 w-full lg:pr-10 lg:py-6 my-6 lg:mb-0 lg:order-1 order-2"
@@ -195,7 +195,7 @@
     </section>
     <!-- Facebook Pixel Event -->
     <section class="text-gray-600 bg-white overflow-hidden">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 py-20 lg:py-24 mx-auto">
         <div class="mx-auto flex flex-wrap">
           <img
             alt="ecommerce"
@@ -228,7 +228,7 @@
     </section>
     <!-- Google Data Studio report-->
     <section class="text-gray-600 body-font overflow-hidden">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 py-20 lg:py-24 mx-auto">
         <div class="mx-auto flex flex-wrap">
           <div
             class="lg:w-1/2 w-full lg:pr-10 lg:py-6 my-6 lg:mb-0 lg:order-1 order-2"
@@ -264,7 +264,7 @@
     </section>
     <!-- Audit and setup of data analytics -->
     <section class="text-gray-600 bg-white overflow-hidden">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 py-20 lg:py-24 mx-auto">
         <div class="mx-auto flex flex-wrap">
           <img
             alt="ecommerce"

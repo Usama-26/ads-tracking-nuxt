@@ -13,10 +13,10 @@
           Online Tracking Anbieter.
         </p>
       </div>
-      <div class="grid xl:grid-cols-3 md:grid-cols-2 lg:mx-12 mx-2">
+      <div class="grid xl:grid-cols-3 md:grid-cols-2 lg:mx-12">
         <div class="lg:px-8 px-4 py-4">
           <div
-            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 hover:shadow-lg"
+            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 lg:shadow-none lg:hover:shadow-lg shadow-lg"
           >
             <img
               src="~/assets/images/google-tag-manager.png"
@@ -38,7 +38,7 @@
         </div>
         <div class="lg:px-8 px-4 py-4">
           <div
-            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 hover:shadow-lg"
+            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 lg:shadow-none lg:hover:shadow-lg shadow-lg"
           >
             <img
               src="~/assets/images/google-analytics.png"
@@ -60,7 +60,7 @@
         </div>
         <div class="lg:px-8 px-4 py-4">
           <div
-            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 hover:shadow-lg"
+            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 lg:shadow-none lg:hover:shadow-lg shadow-lg"
           >
             <img
               src="~/assets/images/google-analytics.png"
@@ -81,7 +81,7 @@
         </div>
         <div class="lg:px-8 px-4 py-4">
           <div
-            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 hover:shadow-lg"
+            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 lg:shadow-none lg:hover:shadow-lg shadow-lg"
           >
             <img
               src="~/assets/images/google-ads-conversion.png"
@@ -103,7 +103,7 @@
         </div>
         <div class="lg:px-8 px-4 py-4">
           <div
-            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 hover:shadow-lg"
+            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 lg:shadow-none lg:hover:shadow-lg shadow-lg"
           >
             <img
               src="~/assets/images/facebook-pixel-event.png"
@@ -124,7 +124,7 @@
         </div>
         <div class="lg:px-8 px-4 py-4">
           <div
-            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 hover:shadow-lg"
+            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 lg:shadow-none lg:hover:shadow-lg shadow-lg"
           >
             <img
               src="~/assets/images/30-plus-integrations.png"
@@ -146,7 +146,7 @@
         </div>
         <div class="lg:px-8 px-4 py-4">
           <div
-            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 hover:shadow-lg"
+            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 lg:shadow-none lg:hover:shadow-lg shadow-lg"
           >
             <img
               src="~/assets/images/30-plus-integrations.png"
@@ -167,7 +167,7 @@
         </div>
         <div class="lg:px-8 px-4 py-4">
           <div
-            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 hover:shadow-lg"
+            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 lg:shadow-none lg:hover:shadow-lg shadow-lg"
           >
             <img
               src="~/assets/images/30-plus-integrations.png"
@@ -189,7 +189,7 @@
         </div>
         <div class="lg:px-8 px-4 py-4">
           <div
-            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 hover:shadow-lg"
+            class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 lg:shadow-none lg:hover:shadow-lg shadow-lg"
           >
             <img
               src="~/assets/images/30-plus-integrations.png"
