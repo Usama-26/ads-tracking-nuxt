@@ -53,7 +53,7 @@
           <img
             alt="ecommerce"
             class="lg:w-1/2 w-full lg:h-auto h-64 object-center object-contain rounded"
-            src="./../assets/images/know-how-img.png"
+            src="~/assets/images/know-how-img.png"
           />
         </div>
       </div>
@@ -65,7 +65,7 @@
           <img
             alt="ecommerce"
             class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-            src="./../assets/images/google-tag-manager-banner.png"
+            src="~/assets/images/google-tag-manager-banner.png"
           />
           <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <h1 class="text-gray-900 text-4xl title-font font-bold mb-4">
@@ -125,7 +125,7 @@
           <img
             alt="ecommerce"
             class="lg:w-1/2 w-full lg:h-auto h-64 object-center object-contain rounded"
-            src="./../assets/images/google-analytics-banner.png"
+            src="~/assets/images/google-analytics-banner.png"
           />
         </div>
       </div>
@@ -137,7 +137,7 @@
           class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col"
         >
           <img
-            src="./../assets/images/google-data-analytics-banner.png"
+            src="~/assets/images/google-data-analytics-banner.png"
             alt="Google Data Analytics Banner"
             class="lg:w-2/5"
           />
@@ -179,7 +179,7 @@
           <img
             alt="ecommerce"
             class="lg:w-1/2 w-full lg:h-auto h-64 object-center object-contain rounded"
-            src="./../assets/images/google-analytics-banner.png"
+            src="~/assets/images/google-analytics-banner.png"
           />
         </div>
       </div>
@@ -191,7 +191,7 @@
           <img
             alt="ecommerce"
             class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-            src="./../assets/images/facebook-pixel-event-banner.png"
+            src="~/assets/images/facebook-pixel-event-banner.png"
           />
           <div
             class="lg:w-1/2 w-full self-center lg:pl-10 lg:py-6 mt-6 lg:mt-0"
@@ -238,7 +238,7 @@
           <img
             alt="ecommerce"
             class="lg:w-1/2 w-full lg:h-auto h-64 object-center object-contain rounded"
-            src="./../assets/images/google-data-studio.png"
+            src="~/assets/images/google-data-studio.png"
           />
         </div>
       </div>
@@ -250,7 +250,7 @@
           <img
             alt="ecommerce"
             class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-            src="./../assets/images/google-data-analytics-banner.png"
+            src="~/assets/images/google-data-analytics-banner.png"
           />
           <div
             class="lg:w-1/2 w-full self-center lg:pl-10 lg:py-6 mt-6 lg:mt-0"

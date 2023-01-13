@@ -19,38 +19,12 @@
             <img
               alt="testimonial"
               class="w-40 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-              src="./../assets/images/testimonial-1.png"
+              src="~/assets/images/testimonial-1.png"
             />
             <p class="leading-relaxed">
               This is an analytics powerhouse of a service. Amazing people who
               deliver everything. The best investment we've made in
               understanding how our businesses are performing.
-            </p>
-            <span
-              class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"
-            ></span>
-            <h2
-              class="text-gray-900 font-medium capitalize tracking-wider text-sm"
-            >
-              Anne Spies
-            </h2>
-            <p class="text-gray-500">
-              Investor Relations Manager
-              <span class="text-green-500">Hornbach</span>
-            </p>
-          </div>
-        </div>
-        <div class="lg:w-1/4 lg:mb-0 mb-6 p-4 rounded-lg bg-white">
-          <div class="h-full text-center">
-            <img
-              alt="testimonial"
-              class="w-40 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-              src="./../assets/images/testimonial-2.jpg"
-            />
-            <p class="leading-relaxed">
-              Our shop has a complex setup with some external domains. Ads
-              tracking worked great with Google Tag Manager and Analytics 4. The
-              support also helped us a lot with cross-domain tracking.
             </p>
             <span
               class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"
@@ -66,12 +40,38 @@
             </p>
           </div>
         </div>
+        <div class="lg:w-1/4 lg:mb-0 mb-6 p-4 rounded-lg bg-white">
+          <div class="h-full text-center">
+            <img
+              alt="testimonial"
+              class="w-40 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+              src="~/assets/images/testimonial-2.jpg"
+            />
+            <p class="leading-relaxed">
+              Our shop has a complex setup with some external domains. Ads
+              tracking worked great with Google Tag Manager and Analytics 4. The
+              support also helped us a lot with cross-domain tracking.
+            </p>
+            <span
+              class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"
+            ></span>
+            <h2
+              class="text-gray-900 font-medium capitalize tracking-wider text-sm"
+            >
+              Anne Spies
+            </h2>
+            <p class="text-gray-500">
+              Investor Relations Manager
+              <span class="text-green-500">Hornbach</span>
+            </p>
+          </div>
+        </div>
         <div class="lg:w-1/4 lg:mb-0 p-4 rounded-lg bg-white">
           <div class="h-full text-center">
             <img
               alt="testimonial"
               class="w-40 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-              src="./../assets/images/testimonial-3.png"
+              src="~/assets/images/testimonial-3.png"
             />
             <p class="leading-relaxed">
               These guys are the real deal; We had provided everything to fix

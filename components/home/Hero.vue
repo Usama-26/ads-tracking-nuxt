@@ -7,24 +7,29 @@
         <div
           class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
         >
+          <h3 class="tracking-widest mb-8">
+            WIR SIND IHR FULL-SERVICE DIENSTLEISTER
+          </h3>
           <h1
-            class="title-font sm:text-5xl text-4xl mb-4 font-bold uppercase text-white"
+            class="title-font sm:text-5xl text-4xl mb-4 font-bold text-white mr-4"
           >
-            server-side tracking
+            SERVER­SEITIGES TRACKING
             <br class="inline-block" />
-            <span class="text-gray-900">FOR DIGITAL GROWTH</span>
+            <span class="text-gray-900 inline-block my-3"
+              >FÜR DIGITALES WACHSTUM</span
+            >
           </h1>
           <p class="mb-8 text-lg font-medium leading-relaxed">
-            Web analytics and online marketing data are the basis for digital
-            growth. Only those who analyze the data can effectively optimize
-            digital marketing. In our agency, facts count instead of gut
-            feelings!
+            Web-Analytics und Online-Marketing-Daten sind die Basis für
+            digitales Wachstum. Nur wer die Daten analysiert, kann digitales
+            Marketing effektvoll optimieren. In unserer Agentur zählen Fakten
+            statt Bauchgefühl!
           </p>
           <div class="flex justify-center">
             <button
-              class="flex-shrink-0 text-white uppercase py-4 px-12 focus:outline-none font-bold transition duration-200 rounded-full text-lg mt-10 sm:mt-0 bg-green-600 shadow-md hover:shadow-green-900 active:bg-green-700 active:translate-y-1"
+              class="border-2 rounded-full border-white p-4 text-white hover:bg-green-600 hover:border-green-600 transition duration-300"
             >
-              make contact
+              KONTAKT AUFNEHMEN
             </button>
           </div>
         </div>

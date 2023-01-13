@@ -1,5 +1,10 @@
 <template>
-  <div class="bg-gray-100"></div>
+  <div class="bg-gray-100">
+    <ServicesHero />
+    <ServicesFeatures />
+    <ServicesCTA />
+    <ServicesTestimonials />
+  </div>
 </template>
 
 <script setup></script>

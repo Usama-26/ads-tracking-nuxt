@@ -16,26 +16,31 @@
           class="md:ml-auto flex flex-wrap items-center text-base justify-center"
         >
           <NuxtLink
+            to="/"
             class="mr-5 font-bold text-base text-gray-500 uppercase transition duration-200 hover:text-gray-100"
-            >Home</NuxtLink
+            >HOME</NuxtLink
           >
           <NuxtLink
+            to="/services"
             class="mr-5 font-bold text-base text-gray-500 uppercase transition duration-200 hover:text-gray-100"
-            >Services</NuxtLink
+          >
+            DIENSTLEISTUNGEN</NuxtLink
           >
           <NuxtLink
+            to="/about"
             class="mr-5 font-bold text-base text-gray-500 uppercase transition duration-200 hover:text-gray-100"
-            >Customers</NuxtLink
+            >KUNDEN</NuxtLink
           >
           <NuxtLink
+            to="/contact"
             class="mr-5 font-bold text-base text-gray-500 uppercase transition duration-200 hover:text-gray-100"
-            >About us</NuxtLink
+            >ÜBER UNS</NuxtLink
           >
         </nav>
         <button
           class="inline-flex items-center transition duration-200 py-2 px-6 focus:outline-none border text-gray-100 hover:bg-green-500 hover:border-green-500 uppercase font-bold rounded-full text-base mt-4 md:mt-0"
         >
-          Contact
+          KONTAKT
         </button>
       </div>
       <button type="button" class="md:hidden">

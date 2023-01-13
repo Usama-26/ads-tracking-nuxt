@@ -1,6 +1,15 @@
 <template>
-  <div class="bg-gray-900">
-    <Splide :options="{ rewind: true, height: '100px' }">
+  <div class="bg-zinc-700">
+    <Splide
+      :options="{
+        rewind: true,
+        height: '80px',
+        arrows: false,
+        pagination: false,
+        autoplay: true,
+      }"
+      :extensions="AutoScroll"
+    >
       <SplideSlide>
         <img src="~assets/images/clients/edelweiss.png" alt="Client" />
       </SplideSlide>
@@ -13,9 +22,10 @@
 
 <script>
 import { Splide, SplideSlide } from "@splidejs/vue-splide";
+import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import "@splidejs/vue-splide/css";
 export default defineComponent({
-  components: { Splide, SplideSlide },
+  components: { Splide, SplideSlide, AutoScroll },
 });
 </script>
 
