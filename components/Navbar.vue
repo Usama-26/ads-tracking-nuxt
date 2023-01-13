@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import { Bars3Icon } from "@heroicons/vue/24/outline/index";
+import { Bars3Icon } from "@heroicons/vue/24/outline/index.js";
 
 export default { components: { Bars3Icon } };
 </script>

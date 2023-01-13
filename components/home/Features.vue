@@ -75,7 +75,7 @@
 </template>
 
 <script>
-import { CheckCircleIcon } from "@heroicons/vue/24/solid/index";
+import { CheckCircleIcon } from "@heroicons/vue/24/solid/index.js";
 export default { components: { CheckCircleIcon } };
 </script>
 
