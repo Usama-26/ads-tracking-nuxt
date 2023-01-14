@@ -15,27 +15,12 @@
         <nav
           class="md:ml-auto flex flex-wrap items-center text-base justify-center"
         >
-          <NuxtLink
-            to="/"
-            class="mr-5 font-bold text-base text-gray-500 uppercase transition duration-200 hover:text-gray-100"
-            >HOME</NuxtLink
+          <NuxtLink to="/" class="desktop-link">HOME</NuxtLink>
+          <NuxtLink to="/services" class="desktop-link"
+            >DIENSTLEISTUNGEN</NuxtLink
           >
-          <NuxtLink
-            to="/services"
-            class="mr-5 font-bold text-base text-gray-500 uppercase transition duration-200 hover:text-gray-100"
-          >
-            DIENSTLEISTUNGEN</NuxtLink
-          >
-          <NuxtLink
-            to="/about"
-            class="mr-5 font-bold text-base text-gray-500 uppercase transition duration-200 hover:text-gray-100"
-            >KUNDEN</NuxtLink
-          >
-          <NuxtLink
-            to="/contact"
-            class="mr-5 font-bold text-base text-gray-500 uppercase transition duration-200 hover:text-gray-100"
-            >ÜBER UNS</NuxtLink
-          >
+          <NuxtLink to="/about" class="desktop-link">KUNDEN</NuxtLink>
+          <NuxtLink to="/contact" class="desktop-link">ÜBER UNS</NuxtLink>
         </nav>
         <button
           class="inline-flex items-center transition duration-200 py-2 px-6 focus:outline-none border text-gray-100 hover:bg-green-500 hover:border-green-500 uppercase font-bold rounded-full text-base mt-4 md:mt-0"
@@ -59,25 +44,20 @@
         <nav
           class="md:ml-auto mt-10 flex flex-wrap gap-8 items-center text-base justify-start"
         >
-          <NuxtLink
-            to="/"
-            class="ml-10 w-full font-bold text-white transition duration-200 hover:text-gray-100"
+          <NuxtLink to="/" @click="isToggled = false" class="mobile-link"
             >HOME</NuxtLink
           >
           <NuxtLink
             to="/services"
-            class="ml-10 w-full font-bold text-white transition duration-200 hover:text-gray-100"
+            @click="isToggled = false"
+            class="mobile-link"
           >
             DIENSTLEISTUNGEN</NuxtLink
           >
-          <NuxtLink
-            to="/about"
-            class="ml-10 w-full font-bold text-white transition duration-200 hover:text-gray-100"
+          <NuxtLink to="/about" @click="isToggled = false" class="mobile-link"
             >KUNDEN</NuxtLink
           >
-          <NuxtLink
-            to="/contact"
-            class="ml-10 w-full font-bold text-white transition duration-200 hover:text-gray-100"
+          <NuxtLink to="/contact" @click="isToggled = false" class="mobile-link"
             >ÜBER UNS</NuxtLink
           >
           <NuxtLink
