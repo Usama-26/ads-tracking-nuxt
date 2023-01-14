@@ -1,20 +1,15 @@
 <template>
   <div>
     <section class="text-gray-600 bg-white">
-      <div class="container py-24 mx-auto">
+      <div class="container mx-auto">
         <div class="flex flex-col w-full lg:mb-20 mb-10">
           <div class="mx-8 lg:mx-20">
             <h1 class="sm:text-4xl text-3xl font-bold title-font text-gray-900">
-              Ihr Schritt zu erfolgreichem Marketing: Rufen Sie uns an
+              Ihre Ansprechpartner
             </h1>
             <span
               class="inline-block h-1 w-20 mt-4 rounded bg-green-500"
             ></span>
-            <h3 class="font-medium text-xl text-gray-600">
-              Nur ein Anruf oder Klick genügt und Sie sind der Lösung eines der
-              scheinbar unlösbaren Marketingprobleme bereits ein gutes Stück
-              näher.
-            </h3>
           </div>
         </div>
         <div class="mx-20 flex lg:flex-nowrap flex-wrap">

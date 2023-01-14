@@ -19,14 +19,15 @@
           <NuxtLink to="/services" class="desktop-link"
             >DIENSTLEISTUNGEN</NuxtLink
           >
-          <NuxtLink to="/about" class="desktop-link">KUNDEN</NuxtLink>
-          <NuxtLink to="/contact" class="desktop-link">ÜBER UNS</NuxtLink>
+          <NuxtLink to="/customers" class="desktop-link">KUNDEN</NuxtLink>
+          <NuxtLink to="/about" class="desktop-link">ÜBER UNS</NuxtLink>
         </nav>
-        <button
+        <NuxtLink
+          to="/contact"
           class="inline-flex items-center transition duration-200 py-2 px-6 focus:outline-none border text-gray-100 hover:bg-green-500 hover:border-green-500 uppercase font-bold rounded-full text-base mt-4 md:mt-0"
         >
           KONTAKT
-        </button>
+        </NuxtLink>
       </div>
       <button
         type="button"
@@ -54,13 +55,17 @@
           >
             DIENSTLEISTUNGEN</NuxtLink
           >
-          <NuxtLink to="/about" @click="isToggled = false" class="mobile-link"
+          <NuxtLink
+            to="/customers"
+            @click="isToggled = false"
+            class="mobile-link"
             >KUNDEN</NuxtLink
           >
-          <NuxtLink to="/contact" @click="isToggled = false" class="mobile-link"
+          <NuxtLink to="/about" @click="isToggled = false" class="mobile-link"
             >ÜBER UNS</NuxtLink
           >
           <NuxtLink
+            to="/contact"
             class="text-center transition duration-200 py-2 ml-10 focus:outline-none border text-gray-100 hover:bg-green-500 hover:border-green-500 uppercase font-bold w-4/5"
           >
             KONTAKT

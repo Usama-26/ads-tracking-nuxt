@@ -1,11 +1,134 @@
 <template>
   <div>
-    <h1 class="text-center text-2xl my-6">
-      This Page is currently in design process
-    </h1>
+    <AboutHero />
+    <section class="text-gray-600 overflow-hidden">
+      <div class="container px-5 lg:px-20 py-20 mx-auto">
+        <div class="mx-auto flex flex-wrap justify-between">
+          <img
+            alt="ecommerce"
+            class="lg:w-1/2 w-full h-2/4 self-center object-cover object-center rounded"
+            src="~/assets/images/about-img_2.jpg"
+          />
+          <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <div class="flex flex-col w-full mb-10">
+              <h1
+                class="sm:text-4xl text-3xl font-bold title-font text-gray-900"
+              >
+                Begeisterung macht glücklich
+              </h1>
+              <span
+                class="inline-block h-1 w-20 mt-4 rounded bg-green-500"
+              ></span>
+            </div>
+
+            <p class="leading-relaxed text-lg p-4">
+              Wir machen Sie glücklich, versprochen: Wir sind
+              <span class="text-green-500">Dienstleister aus Leidenschaft</span>
+              und lieben, was wir tun. Als Spezialisten sind wir stolz auf unser
+              Know-how und unsere langjährige Erfahrung in der äußerst
+              speziellen Materie rund um serverseitiges Tracking. Dabei stets im
+              Mittelpunkt: Unsere Kunden. Das garantieren wir Ihnen.
+            </p>
+            <p class="leading-relaxed text-lg p-4">
+              Wir sind <span class="text-green-500">ehrlich:</span> Wir wollen
+              mit Ihnen nicht nur „ein Projekt abwickeln“. Sondern wir möchten
+              verstehen, was Sie und Ihr Unternehmen tun und dann gemeinsam mit
+              Ihnen das Beste aus Ihrem Marketing herausholen.
+              <span class="text-green-500"> Als Partner und dauerhaft.</span>
+            </p>
+            <p class="leading-relaxed text-lg p-4">
+              Viele unserer Kunden arbeiten seit mehreren Jahren mit uns
+              zusammen. Sie sind die
+              <NuxtLink to="/customers" class="text-green-500">
+                beste Referenz, die wir uns wünschen können</NuxtLink
+              >.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <AboutTeam />
+    <AboutVision />
+    <!-- CTA Section -->
+    <section class="text-gray-600 bg-[#34cc81dd] body-font">
+      <div class="container px-5 py-16 mx-auto">
+        <div
+          class="lg:w-4/5 flex flex-col gap-8 sm:items-center items-start justify-between mx-auto"
+        >
+          <h1 class="text-3xl text-center mx-auto font-bold text-gray-100">
+            Wir freuen uns, Sie kennenzulernen!
+          </h1>
+          <button
+            class="border-2 rounded-full mx-auto border-white p-4 text-white hover:bg-green-600 hover:border-green-600 transition duration-300"
+          >
+            SCHREIBEN SIE UNS
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Success Section -->
+    <section class="text-gray-600 bg-white body-font overflow-hidden">
+      <div class="container px-5 lg:px-20 py-20 lg:py-24 mx-auto">
+        <div class="mx-auto flex items-center lg:flex-nowrap gap-12">
+          <div class="lg:w-1/2 w-full">
+            <img
+              alt="ecommerce"
+              class="object-center object-contain rounded"
+              src="~/assets/images/about-img_1.jpg"
+            />
+          </div>
+          <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 lg:mb-0">
+            <h2 class="text-md text-green-500 font-bold tracking-widest">
+              UNSERE FÄHIGKEITEN
+            </h2>
+            <h1 class="text-gray-900 text-4xl title-font font-bold my-6">
+              Erfahrung in allen wichtigen Marketing-Disziplinen
+            </h1>
+
+            <div>
+              <label for="tagManager">Google Tag Manager</label>
+              <progress
+                id="tagManager"
+                value="100"
+                max="100"
+                class="w-full bg-gray-200"
+              ></progress>
+              <label for="tagManager">Google Ads</label>
+              <progress
+                id="tagManager"
+                value="100"
+                max="100"
+                class="w-full bg-gray-200"
+              ></progress>
+              <label for="tagManager">Facebook</label>
+              <progress
+                id="tagManager"
+                value="95"
+                max="100"
+                class="w-full bg-gray-200"
+              ></progress>
+              <label for="tagManager">Tracking, analysis and controlling</label>
+              <progress
+                id="tagManager"
+                value="100"
+                max="100"
+                class="w-full bg-gray-200"
+              ></progress>
+              <label for="tagManager">Conversion Optimization</label>
+              <progress
+                id="tagManager"
+                value="90"
+                max="100"
+                class="w-full bg-gray-200"
+              ></progress>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>

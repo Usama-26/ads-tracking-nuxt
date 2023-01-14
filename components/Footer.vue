@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-gray-600 body-font bg-white">
+  <footer class="text-gray-600 body-font footer-background">
     <div
       class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
     >
@@ -12,8 +12,9 @@
             alt="Ads Tracking Logo"
           />
         </a>
-        <p class="mt-2 text-md font-me text-gray-500">
-          More sales & better data – Your advantage with server-side tracking
+        <p class="mt-2 text-md font-medium text-gray-500">
+          Mehr Umsatz & bessere Daten – Ihr Vorsprung mit serverseitigem
+          Tracking
         </p>
         <button
           class="uppercase bg-green-500 p-4 my-2 text-gray-100 font-bold rounded-full"
@@ -26,7 +27,7 @@
       >
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2
-            class="title-font uppercase font-medium text-gray-900 tracking-widest text-sm mb-3"
+            class="title-font uppercase font-medium text-green-500 tracking-widest text-sm mb-3"
           >
             navigator
           </h2>
@@ -60,9 +61,9 @@
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2
-            class="title-font uppercase font-medium text-gray-900 tracking-widest text-sm mb-3"
+            class="title-font uppercase font-medium text-green-500 tracking-widest text-sm mb-3"
           >
-            contact
+            KONTAKT
           </h2>
           <nav class="list-none mb-10">
             <li>
@@ -82,9 +83,9 @@
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2
-            class="title-font font-medium uppercase text-gray-900 tracking-widest text-sm mb-3"
+            class="title-font font-medium uppercase text-green-500 tracking-widest text-sm mb-3"
           >
-            company
+            UNTERNEHMEN
           </h2>
           <nav class="list-none mb-10">
             <li class="hover:translate-x-1 transition duration-300">
@@ -158,4 +159,8 @@
 
 <script setup></script>
 
-<style scoped></style>
+<style scoped>
+.footer-background {
+  background: url("~/assets/images/footer-bg.webp");
+}
+</style>
