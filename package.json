@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.13",
-    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
-    "@splidejs/vue-splide": "^0.6.12"
+    "nuxt-swiper": "^0.1.7"
   }
 }
