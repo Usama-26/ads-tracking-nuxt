@@ -1,7 +1,7 @@
 <template>
   <footer class="text-gray-600 body-font footer-background">
     <div
-      class="max-w-screen-xl px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
+      class="max-w-screen-xl px-5 lg:px-20 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
     >
       <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
         <a
@@ -123,7 +123,7 @@
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              class="w-5 h-5"
+              class="w-5 h-5 fill-green-500"
               viewBox="0 0 24 24"
             >
               <path
@@ -142,7 +142,7 @@
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              class="w-5 h-5"
+              class="w-5 h-5 stroke-green-500"
               viewBox="0 0 24 24"
             >
               <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
