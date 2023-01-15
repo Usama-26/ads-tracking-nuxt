@@ -109,7 +109,7 @@
     </div>
     <div class="bg-gray-100">
       <div
-        class="max-w-screen-xl mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
+        class="max-w-screen-xl mx-auto py-4 lg:px-20 px-5 flex flex-wrap flex-col sm:flex-row"
       >
         <p class="text-gray-500 text-md font-bold text-center sm:text-left">
           Copyright © 2020 ADS Tracking

@@ -1,7 +1,11 @@
 <template>
   <header
     class="text-gray-600 z-10 w-full"
-    :class="isScrolled ? 'bg-white fixed top-0 p-3' : 'bg-zinc-800 p-5'"
+    :class="
+      isScrolled
+        ? 'bg-white fixed top-0 p-3 shadow-md'
+        : 'bg-zinc-800 border-y border-gray-300 p-5'
+    "
   >
     <div class="mx-auto flex flex-wrap justify-between items-center">
       <NuxtLink to="/">
