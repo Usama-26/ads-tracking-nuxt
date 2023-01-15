@@ -1,6 +1,7 @@
 <template>
   <div>
     <CustomersHero />
+    <CustomersTestimonials />
     <CustomersClients />
     <CustomersCTA />
   </div>

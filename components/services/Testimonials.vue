@@ -7,7 +7,7 @@
         So denken unsere Kunden über uns
       </h1>
 
-      <p class="w-3/5 mx-auto font-bold mb-8 text-center">
+      <p class="lg:w-3/5 w-full mx-auto font-bold mb-8 text-center">
         So denken unsere Kunden über uns Wie zufrieden unsere Kunden mit unseren
         Tracking und Services sind, zeigen uns die vielen positiven Bewertungen,
         die uns regelmäßig erreichen. Das sind nur drei von mehr als 100
