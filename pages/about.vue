@@ -69,7 +69,7 @@
     <!-- Success Section -->
     <section class="text-gray-600 bg-white body-font overflow-hidden">
       <div class="container px-5 lg:px-20 py-20 lg:py-24 mx-auto">
-        <div class="mx-auto flex items-center lg:flex-nowrap gap-12">
+        <div class="mx-auto flex items-center lg:flex-nowrap flex-wrap gap-12">
           <div class="lg:w-1/2 w-full">
             <img
               alt="ecommerce"

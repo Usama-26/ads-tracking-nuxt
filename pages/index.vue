@@ -89,7 +89,7 @@
             Jetzt kostenloses Beratungs­gespräch vereinbaren!
           </h1>
           <button
-            class="border-2 rounded-full mx-auto border-white p-4 text-white hover:bg-green-600 hover:border-green-600 transition duration-300"
+            class="border-2 rounded-full mx-auto border-white p-4 text-white font-bold tracking-wider hover:bg-green-600 hover:border-green-600 transition duration-300"
           >
             JETZT ANFRAGEN
           </button>
@@ -207,7 +207,7 @@
             Jetzt kostenloses Beratungs­gespräch vereinbaren!
           </h1>
           <button
-            class="border-2 rounded-full mx-auto border-white p-4 text-white hover:bg-green-600 hover:border-green-600 transition duration-300"
+            class="border-2 rounded-full mx-auto border-white p-4 text-white font-bold tracking-wider hover:bg-green-600 hover:border-green-600 transition duration-300"
           >
             JETZT ANFRAGEN
           </button>

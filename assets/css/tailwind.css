@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 .desktop-link {
   @apply mr-5 font-bold text-base text-gray-500 uppercase transition duration-200 hover:text-gray-100;
 }

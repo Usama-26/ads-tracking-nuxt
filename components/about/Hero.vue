@@ -30,7 +30,7 @@ export default {
 
 <style scoped>
 .hero__background {
-  background: url("assets/images/contact-page__hero.jpg");
+  background: url("assets/images/clients-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0;
