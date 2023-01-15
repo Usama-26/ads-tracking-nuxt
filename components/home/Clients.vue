@@ -5,6 +5,13 @@
         :options="{
           type: 'loop',
           perPage: 7,
+          mediaQuery: 'max',
+          breakpoints: {
+            640: {
+              perPage: 4,
+              autoWidth: true,
+            },
+          },
           perMove: 1,
           pagination: false,
           arrows: false,

@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container lg:px-20 px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
         <h1
           class="sm:text-3xl text-2xl title-font mb-4 capitalize font-bold text-gray-900"
@@ -13,7 +13,7 @@
           Online Tracking Anbieter.
         </p>
       </div>
-      <div class="grid xl:grid-cols-3 md:grid-cols-2 lg:mx-12">
+      <div class="grid xl:grid-cols-3 md:grid-cols-2">
         <div class="lg:px-8 px-4 py-4">
           <div
             class="px-8 py-10 relative w-full rounded-lg bg-white hover:-translate-y-2 transition duration-300 lg:shadow-none lg:hover:shadow-lg shadow-lg"

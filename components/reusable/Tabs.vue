@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full max-w-5xl py-10 px-24 sm:px-0">
+  <div class="w-full max-w-5xl py-10 px-24 sm:px-0 mx-auto">
     <TabGroup>
       <TabList class="flex space-x-1 rounded-xl p-1 bg-white">
         <Tab as="template" v-slot="{ selected }">
@@ -26,7 +26,7 @@
         </Tab>
       </TabList>
 
-      <TabPanels class="h-[800px] px-10 py-1 mt-5 bg-white">
+      <TabPanels class="h-[800px] px-10 py-1 mt-5 shadow-md bg-white">
         <TabPanel>
           <h1 class="my-8">
             All diese Variablen sind den korrelierten Ereignissen zugeordnet.

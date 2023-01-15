@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 lg:px-20 py-24 mx-auto">
       <h1
         class="text-3xl font-medium title-font text-gray-900 mb-8 text-center"
       >
@@ -14,8 +14,8 @@
         Unternehmen, mit denen wir seit 2017 erfolgreich zusammengearbeitet
         haben.
       </p>
-      <div class="flex flex-wrap justify-around">
-        <div class="lg:w-1/4 lg:mb-0 mb-6 p-4 rounded-lg bg-white shadow-md">
+      <div class="flex lg:flex-nowrap flex-wrap gap-8 justify-around">
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-lg bg-white shadow-md">
           <div class="h-full text-center">
             <img
               alt="testimonial"
@@ -41,7 +41,7 @@
             </p>
           </div>
         </div>
-        <div class="lg:w-1/4 lg:mb-0 mb-6 p-4 rounded-lg bg-white shadow-md">
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-lg bg-white shadow-md">
           <div class="h-full text-center">
             <img
               alt="testimonial"
@@ -68,7 +68,7 @@
             </p>
           </div>
         </div>
-        <div class="lg:w-1/4 lg:mb-0 p-4 rounded-lg bg-white shadow-md">
+        <div class="lg:w-1/3 lg:mb-0 p-4 rounded-lg bg-white shadow-md">
           <div class="h-full text-center">
             <img
               alt="testimonial"

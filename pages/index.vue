@@ -188,7 +188,7 @@
             </div>
           </div>
         </div>
-        <div class="mx-20 flex">
+        <div class="flex lg:mx-20 lg:justify-start justify-center">
           <button
             class="border-2 rounded-full lg:self-start self-center border-green-500 p-4 mt-4 text-white hover:text-green-600 bg-green-500 hover:bg-white transition duration-300 tracking-wider font-bold"
           >
