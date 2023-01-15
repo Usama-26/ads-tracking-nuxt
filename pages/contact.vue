@@ -1,6 +1,8 @@
 <template>
   <div>
     <ContactHero />
+    <ContactForm />
+    <ContactStats />
   </div>
 </template>
 

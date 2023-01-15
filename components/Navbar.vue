@@ -1,8 +1,6 @@
 <template>
   <header class="text-gray-600 bg-zinc-800 body-font z-10 w-full">
-    <div
-      class="container mx-auto flex flex-wrap justify-between p-5 items-center"
-    >
+    <div class="mx-auto flex flex-wrap justify-between p-5 items-center">
       <NuxtLink class="flex title-font font-medium items-center text-gray-900">
         <img
           src="~/assets/images/ads-tracking-logo.svg"
@@ -40,7 +38,7 @@
       <!-- Mobile Nav -->
       <div
         v-if="isToggled"
-        class="lg:hidden block absolute h-screen top-0 w-96 right-0 z-5 bg-[#34cc81]"
+        class="lg:hidden block fixed h-screen top-0 w-96 right-0 z-5 bg-[#34cc81]"
       >
         <nav
           class="md:ml-auto mt-10 flex flex-wrap gap-8 items-center text-base justify-start"
@@ -66,6 +64,7 @@
           >
           <NuxtLink
             to="/contact"
+            @click="isToggled = false"
             class="text-center transition duration-200 py-2 ml-10 focus:outline-none border text-gray-100 hover:bg-green-500 hover:border-green-500 uppercase font-bold w-4/5"
           >
             KONTAKT
