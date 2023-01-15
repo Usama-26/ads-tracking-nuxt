@@ -7,7 +7,7 @@ body {
 }
 
 .desktop-link {
-  @apply mr-5 font-bold text-base text-gray-500 uppercase transition duration-200 hover:text-gray-100;
+  @apply mr-5 font-bold text-base text-gray-500 uppercase transition duration-200;
 }
 .mobile-link {
   @apply ml-10 w-full font-bold text-white transition duration-200 hover:text-gray-100;
