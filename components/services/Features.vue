@@ -227,7 +227,7 @@
             </p>
           </div>
         </div>
-        <div class="lg:flex hidden"><ReusableTabs /></div>
+        <div class="lg:flex hidden"><ReusablesTabs /></div>
       </div>
     </section>
     <!-- Google Ads Remarketing & Conversions-->
