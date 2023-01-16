@@ -7,11 +7,12 @@
         <h1 class="text-3xl text-center mx-auto font-bold text-gray-100">
           Jetzt kostenloses Beratungs­gespräch vereinbaren!
         </h1>
-        <button
+        <NuxtLink
+          to="/contact"
           class="border-2 rounded-full mx-auto border-white p-4 text-white font-bold tracking-wider hover:bg-green-600 hover:border-green-600 transition duration-300"
         >
           JETZT ANFRAGEN
-        </button>
+        </NuxtLink>
       </div>
     </div>
   </section>

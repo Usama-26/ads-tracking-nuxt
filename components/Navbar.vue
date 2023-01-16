@@ -11,14 +11,14 @@
           v-if="!isScrolled"
           src="~/assets/images/ads-tracking-logo.svg"
           alt="Ads Tracking"
-          class="w-48"
+          class="w-96"
           :src="{ '~/assets/images/ads-tracking-logo-white.svg': isScrolled }"
         />
         <img
           v-else
           src="~/assets/images/ads-tracking-logo-white.svg"
           alt="Ads Tracking"
-          class="w-48"
+          class="w-72"
         />
       </NuxtLink>
       <!-- Desktop Nav -->
@@ -53,8 +53,8 @@
         </nav>
         <NuxtLink
           to="/contact"
-          class="inline-flex items-center transition duration-200 py-2 px-6 focus:outline-none border hover:bg-green-600 hover:border-green-500 uppercase font-bold rounded-full text-base mt-4 md:mt-0"
-          :class="isScrolled ? 'text-gray-100 bg-green-500 ' : 'text-gray-100'"
+          class="inline-flex items-center transition duration-200 py-2 px-6 focus:outline-none border hover:bg-green-600 hover:border-[#34cc81] uppercase font-bold rounded-full text-base mt-4 md:mt-0"
+          :class="isScrolled ? 'text-gray-100 bg-[#34cc81] ' : 'text-gray-100'"
         >
           KONTAKT
         </NuxtLink>
@@ -67,7 +67,7 @@
         <XMarkIcon v-if="isToggled" class="w-8 h-8 stroke-white" />
         <Bars3Icon
           v-else
-          class="w-8 h-8 lg:stroke-green-500 stroke-white"
+          class="w-8 h-8 lg:stroke-[#34cc81] stroke-white"
           :class="isScrolled ? 'stroke-gray-900' : 'stroke-green-600'"
         />
       </button>
@@ -101,7 +101,7 @@
           <NuxtLink
             to="/contact"
             @click="isToggled = false"
-            class="text-center transition duration-200 py-2 ml-10 focus:outline-none border text-gray-100 hover:bg-green-500 hover:border-green-500 uppercase font-bold w-4/5"
+            class="text-center transition duration-200 py-2 ml-10 focus:outline-none border text-gray-100 hover:bg-[#34cc81] hover:border-[#34cc81] uppercase font-bold w-4/5"
           >
             KONTAKT
           </NuxtLink>

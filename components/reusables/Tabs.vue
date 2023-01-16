@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full max-w-5xl py-10 px-24 sm:px-0 mx-auto">
+  <div class="w-full max-w-7xl py-10 px-24 sm:px-0 mx-auto">
     <TabGroup>
       <TabList class="flex space-x-1 rounded-xl p-1 bg-white">
         <Tab as="template" v-slot="{ selected }">
@@ -7,7 +7,9 @@
             :class="[
               'w-full rounded-lg py-2.5 text-sm font-bold tracking-wider uppercase leading-5 text-gray-600',
               'focus:outline-none ',
-              selected ? 'text-green-600 shadow' : ' hover:bg-green-100',
+              selected
+                ? 'text-white bg-[#34cc81] shadow'
+                : ' hover:bg-green-100',
             ]"
           >
             Datenschichtvariablen
@@ -18,7 +20,9 @@
             :class="[
               'w-full rounded-lg py-2.5 text-sm font-bold tracking-wider uppercase leading-5 text-gray-600',
               'focus:outline-none ',
-              selected ? 'text-green-600 shadow' : ' hover:bg-green-100',
+              selected
+                ? 'text-white bg-[#34cc81] shadow'
+                : ' hover:bg-green-100',
             ]"
           >
             Conversion-Events
@@ -26,7 +30,7 @@
         </Tab>
       </TabList>
 
-      <TabPanels class="h-[800px] px-10 py-1 mt-5 shadow-md bg-white">
+      <TabPanels class="h-[700px] px-10 py-1 mt-5 shadow-md bg-white">
         <TabPanel>
           <h1 class="my-8">
             All diese Variablen sind den korrelierten Ereignissen zugeordnet.
@@ -37,126 +41,132 @@
           <table class="w-full">
             <thead>
               <tr class="border">
-                <th class="table-cell">Product-Level</th>
-                <th class="table-cell">Order-Level</th>
-                <th class="table-cell">User-Level</th>
+                <th class="table-cell py-2">Product-Level</th>
+                <th class="table-cell py-2">Order-Level</th>
+                <th class="table-cell py-2">User-Level</th>
               </tr>
             </thead>
             <tbody>
               <tr class="border">
-                <td class="table-cell">Product Name</td>
-                <td class="table-cell">Order ID</td>
-                <td class="table-cell">User ID</td>
+                <td class="table-cell py-2">Product Name</td>
+                <td class="table-cell py-2">Order ID</td>
+                <td class="table-cell py-2">User ID</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Product Category</td>
-                <td class="table-cell">Order Total Price</td>
-                <td class="table-cell">User Type</td>
+                <td class="table-cell py-2">Product Category</td>
+                <td class="table-cell py-2">Order Total Price</td>
+                <td class="table-cell py-2">User Type</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Product SKU/ID</td>
-                <td class="table-cell">Order Shipping Price</td>
-                <td class="table-cell">User Recency</td>
+                <td class="table-cell py-2">Product SKU/ID</td>
+                <td class="table-cell py-2">Order Shipping Price</td>
+                <td class="table-cell py-2">User Recency</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Product Google Feed ID</td>
-                <td class="table-cell">Order Tax</td>
-                <td class="table-cell">User Frequency</td>
+                <td class="table-cell py-2">Product Google Feed ID</td>
+                <td class="table-cell py-2">Order Tax</td>
+                <td class="table-cell py-2">User Frequency</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Product Type</td>
-                <td class="table-cell">Order Coupon Code</td>
-                <td class="table-cell">User Monetary (Total Spent)</td>
+                <td class="table-cell py-2">Product Type</td>
+                <td class="table-cell py-2">Order Coupon Code</td>
+                <td class="table-cell py-2">User Monetary (Total Spent)</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Product Brand</td>
-                <td class="table-cell">Payment Currency</td>
-                <td class="table-cell">User Email (hased)</td>
+                <td class="table-cell py-2">Product Brand</td>
+                <td class="table-cell py-2">Payment Currency</td>
+                <td class="table-cell py-2">User Email (hased)</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Product Total Price</td>
-                <td class="table-cell"></td>
-                <td class="table-cell">User First Name</td>
+                <td class="table-cell py-2">Product Total Price</td>
+                <td class="table-cell py-2"></td>
+                <td class="table-cell py-2">User First Name</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Product Shipping Price</td>
-                <td class="table-cell"></td>
-                <td class="table-cell">User Last Name</td>
+                <td class="table-cell py-2">Product Shipping Price</td>
+                <td class="table-cell py-2"></td>
+                <td class="table-cell py-2">User Last Name</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Product Quantity</td>
-                <td class="table-cell"></td>
-                <td class="table-cell">User Phone</td>
+                <td class="table-cell py-2">Product Quantity</td>
+                <td class="table-cell py-2"></td>
+                <td class="table-cell py-2">User Phone</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Product Tax</td>
-                <td class="table-cell"></td>
-                <td class="table-cell">User Address</td>
+                <td class="table-cell py-2">Product Tax</td>
+                <td class="table-cell py-2"></td>
+                <td class="table-cell py-2">User Address</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Category/Collection Name</td>
-                <td class="table-cell"></td>
-                <td class="table-cell">User Zip Code</td>
+                <td class="table-cell py-2">Category/Collection Name</td>
+                <td class="table-cell py-2"></td>
+                <td class="table-cell py-2">User Zip Code</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Category/Collection ID</td>
-                <td class="table-cell"></td>
-                <td class="table-cell">User City/Province/Country</td>
+                <td class="table-cell py-2">Category/Collection ID</td>
+                <td class="table-cell py-2"></td>
+                <td class="table-cell py-2">User City/Province/Country</td>
               </tr>
             </tbody>
           </table>
         </TabPanel>
         <TabPanel>
-          <table class="w-full mt-20">
+          <table class="w-full mt-8">
             <thead>
               <tr class="border">
-                <th class="table-cell">Event Name</th>
-                <th class="table-cell">Trigger</th>
-                <th class="table-cell">Data</th>
+                <th class="table-cell py-4">Event Name</th>
+                <th class="table-cell py-4">Trigger</th>
+                <th class="table-cell py-4">Data</th>
               </tr>
             </thead>
             <tbody>
               <tr class="border">
-                <td class="table-cell">Global</td>
-                <td class="table-cell">All Pages</td>
-                <td class="table-cell">Page-level,user-level</td>
+                <td class="table-cell py-4">Global</td>
+                <td class="table-cell py-4">All Pages</td>
+                <td class="table-cell py-4">Page-level,user-level</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Product Impression</td>
-                <td class="table-cell">Collection/Category Pages</td>
-                <td class="table-cell">
+                <td class="table-cell py-4">Product Impression</td>
+                <td class="table-cell py-4">Collection/Category Pages</td>
+                <td class="table-cell py-4">
                   Product-level data of all products impressed
                 </td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Product Click</td>
-                <td class="table-cell">Product Click in any listing</td>
-                <td class="table-cell">Product-level</td>
+                <td class="table-cell py-4">Product Click</td>
+                <td class="table-cell py-4">Product Click in any listing</td>
+                <td class="table-cell py-4">Product-level</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Product Detail</td>
-                <td class="table-cell">Single product page</td>
-                <td class="table-cell">Product-level</td>
+                <td class="table-cell py-4">Product Detail</td>
+                <td class="table-cell py-4">Single product page</td>
+                <td class="table-cell py-4">Product-level</td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Add to cart</td>
-                <td class="table-cell">A product added to the cart</td>
-                <td class="table-cell">Cart details (including products))</td>
+                <td class="table-cell py-4">Add to cart</td>
+                <td class="table-cell py-4">A product added to the cart</td>
+                <td class="table-cell py-4">
+                  Cart details (including products))
+                </td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Initiate Checkout</td>
-                <td class="table-cell">Started checkout steps</td>
-                <td class="table-cell">Cart details (including products)</td>
+                <td class="table-cell py-4">Initiate Checkout</td>
+                <td class="table-cell py-4">Started checkout steps</td>
+                <td class="table-cell py-4">
+                  Cart details (including products)
+                </td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Checkout Steps</td>
-                <td class="table-cell">All checkout steps</td>
-                <td class="table-cell">Cart details (including products)</td>
+                <td class="table-cell py-4">Checkout Steps</td>
+                <td class="table-cell py-4">All checkout steps</td>
+                <td class="table-cell py-4">
+                  Cart details (including products)
+                </td>
               </tr>
               <tr class="border">
-                <td class="table-cell">Purchase</td>
-                <td class="table-cell">Thank you page</td>
-                <td class="table-cell">
+                <td class="table-cell py-4">Purchase</td>
+                <td class="table-cell py-4">Thank you page</td>
+                <td class="table-cell py-4">
                   Order details, user-level data, products
                 </td>
               </tr>

@@ -26,11 +26,12 @@
             statt Bauchgefühl!
           </p>
           <div class="flex justify-center">
-            <button
+            <NuxtLink
+              to="/contact"
               class="border-2 rounded-full border-white p-4 text-gray-100 hover:bg-green-600 hover:border-green-600 transition duration-300"
             >
               KONTAKT AUFNEHMEN
-            </button>
+            </NuxtLink>
           </div>
         </div>
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:block hidden">

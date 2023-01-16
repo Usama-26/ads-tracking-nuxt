@@ -7,7 +7,7 @@
           <div
             class="lg:w-1/2 w-full order-2 lg:order-1 lg:pr-10 lg:py-6 lg:mb-0"
           >
-            <h2 class="text-md text-green-500 font-bold tracking-widest">
+            <h2 class="text-md text-[#34cc81] font-bold tracking-widest">
               KNOW-HOW
             </h2>
             <h1 class="text-gray-900 text-4xl title-font font-bold mb-4">
@@ -220,10 +220,11 @@
             <h2 class="text-gray-900 font-bold text-4xl mb-2">
               Advanced Data Layers
             </h2>
-            <p class="leading-relaxed text-base">
-              Ads tracking offers advanced data layers covering all available
-              data and events. The data layers are perfectly structured and
-              connected to Google Tag Manager as custom triggers and variables.
+            <p class="leading-relaxed text-base font-medium">
+              Ads-Tracking bietet erweiterte Datenschichten, die alle
+              verfügbaren Daten und Ereignisse abdecken. Die Datenschichten sind
+              perfekt strukturiert und als benutzerdefinierte Trigger und
+              Variablen mit dem Google Tag Manager verbunden.
             </p>
           </div>
         </div>

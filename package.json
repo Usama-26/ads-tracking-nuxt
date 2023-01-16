@@ -10,12 +10,14 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.2.0",
     "nuxt": "3.0.0",
-    "nuxt-headlessui": "^1.1.1"
+    "nuxt-headlessui": "^1.1.1",
+    "vue-particles": "^1.0.9"
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.13",
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "@splidejs/vue-splide": "^0.6.12",
-    "nuxt-swiper": "^0.1.7"
+    "nuxt-swiper": "^0.1.7",
+    "particles.vue3": "^2.7.1"
   }
 }

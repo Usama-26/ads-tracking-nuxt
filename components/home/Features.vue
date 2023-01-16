@@ -8,7 +8,7 @@
           Bringen Sie Ihr Business mit Ads-Tracking auf das nächste Level
         </h1>
         <span
-          class="inline-block h-1 w-20 lg:mx-20 mt-4 rounded bg-green-500"
+          class="inline-block h-1 w-20 lg:mx-20 mt-4 rounded bg-[#34cc81]"
         ></span>
       </div>
       <div class="flex lg:flex-nowrap flex-wrap gap-8 lg:mx-20 mx-8">
@@ -16,7 +16,7 @@
           <div
             class="flex rounded-xl h-full shadow-lg text-center bg-white p-8 flex-col"
           >
-            <CheckCircleIcon class="fill-green-600 w-16 h-16 mx-auto" />
+            <CheckCircleIcon class="fill-[#34cc81] w-16 h-16 mx-auto" />
 
             <h2 class="font-bold text-xl my-4 text-gray-900">
               Messbar mehr Erfolg für Ihre Kunden
@@ -35,7 +35,7 @@
           <div
             class="flex rounded-xl h-full shadow-lg text-center bg-white p-8 flex-col"
           >
-            <CheckCircleIcon class="fill-green-600 w-16 h-16 mx-auto" />
+            <CheckCircleIcon class="fill-[#34cc81] w-16 h-16 mx-auto" />
 
             <h2 class="font-bold text-xl my-4 text-gray-900">
               Deutlich mehr Umsatz für das gleiche Budget
@@ -54,7 +54,7 @@
           <div
             class="flex rounded-xl h-full shadow-lg text-center bg-white p-8 flex-col"
           >
-            <CheckCircleIcon class="fill-green-600 w-16 h-16 mx-auto" />
+            <CheckCircleIcon class="fill-[#34cc81] w-16 h-16 mx-auto" />
 
             <h2 class="font-bold text-xl my-4 text-gray-900">
               Der Konkurrenz mehr als eine Nasenlänge voraus

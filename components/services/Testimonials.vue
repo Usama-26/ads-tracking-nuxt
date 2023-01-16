@@ -1,20 +1,22 @@
 <template>
-  <section class="text-gray-600 body-font">
+  <section class="text-gray-600 testimonials_bg">
     <div class="container px-5 lg:px-20 py-24 mx-auto">
       <h1
         class="text-3xl font-medium title-font text-gray-900 mb-8 text-center"
       >
         So denken unsere Kunden über uns
       </h1>
-
-      <p class="lg:w-3/5 w-full mx-auto font-bold mb-8 text-center">
+      <div class="mx-auto">
+        <span class="block h-1 w-20 mx-auto mt-4 rounded bg-[#34cc81]"></span>
+      </div>
+      <p class="lg:w-4/5 w-full mx-auto font-bold mt-4 mb-8 text-center">
         So denken unsere Kunden über uns Wie zufrieden unsere Kunden mit unseren
         Tracking und Services sind, zeigen uns die vielen positiven Bewertungen,
         die uns regelmäßig erreichen. Das sind nur drei von mehr als 100
         Unternehmen, mit denen wir seit 2017 erfolgreich zusammengearbeitet
         haben.
       </p>
-      <div class="flex lg:flex-nowrap flex-wrap gap-8 justify-around">
+      <div class="flex lg:flex-nowrap py-20 flex-wrap gap-8 justify-around">
         <div class="lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-lg bg-white shadow-md">
           <div class="h-full text-center">
             <img
@@ -103,4 +105,11 @@
 
 <script setup></script>
 
-<style scoped></style>
+<style scoped>
+.testimonials_bg {
+  background: url("~/assets/images/testimonials_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+</style>

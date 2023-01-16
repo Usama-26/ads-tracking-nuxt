@@ -13,5 +13,5 @@ body {
   @apply ml-10 w-full font-bold text-white transition duration-200 hover:text-gray-100;
 }
 .table-cell {
-  @apply px-4 py-2 text-left;
+  @apply px-4 text-left;
 }

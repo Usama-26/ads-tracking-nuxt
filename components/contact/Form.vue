@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="bg-white max-w-5xl w-full mx-auto lg:-translate-y-40 shadow-2xl shadow-gray-300"
+      class="bg-white container w-full mx-auto lg:-translate-y-40 shadow-2xl shadow-gray-300"
     >
       <div class="flex lg:flex-row flex-col gap-4">
         <div class="lg:w-2/3 w-full py-16 px-10">
@@ -9,7 +9,7 @@
             <h1 class="sm:text-2xl text-3xl text-gray-500 font-bold">
               Jetzt Kontakt aufnehmen!
             </h1>
-            <div class="border-b-4 w-24 border-green-500 inline-block"></div>
+            <div class="border-b-4 w-24 border-[#34cc81] inline-block"></div>
           </div>
           <form class="py-6">
             <div class="w-full flex md:flex-nowrap flex-wrap gap-4 mb-4">
@@ -55,7 +55,7 @@
             <div class="flex justify-end">
               <button
                 type="submit"
-                class="px-8 py-4 bg-green-500 text-center font-bold text-white hover:bg-green-600"
+                class="px-8 py-4 bg-[#34cc81] text-center font-bold text-white hover:bg-green-600"
               >
                 SENDEN
               </button>
@@ -70,7 +70,7 @@
             </h5>
             <div class="my-8">
               <div class="flex gap-4 my-4">
-                <DevicePhoneMobileIcon class="w-6 h-6 fill-green-600 my-2" />
+                <DevicePhoneMobileIcon class="w-6 h-6 fill-[#34cc81] my-2" />
                 <div class="w-48">
                   <h1 class="text-xl font-bold mb-2">Telefone</h1>
                   <a href="tel:+4970669290181" class="text-green-600"
@@ -80,14 +80,14 @@
                 </div>
               </div>
               <div class="flex gap-4 my-4">
-                <MapPinIcon class="w-6 h-6 fill-green-600 my-2" />
+                <MapPinIcon class="w-6 h-6 fill-[#34cc81] my-2" />
                 <div class="w-48">
                   <h1 class="text-xl font-bold mb-2">Adresse</h1>
                   <p>Michael-Vehe-Straße 17 74078 Heilbronn</p>
                 </div>
               </div>
               <div class="flex gap-4 my-4">
-                <MapPinIcon class="w-6 h-6 fill-green-600 my-2" />
+                <EnvelopeIcon class="w-6 h-6 fill-[#34cc81] my-2" />
                 <div class="w-48">
                   <h1 class="text-xl font-bold mb-2">E-Mail</h1>
                   <a

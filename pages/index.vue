@@ -13,32 +13,67 @@
               Wenn Ihnen das bekannt vorkommt, brauchen Sie Ads-Tracking
             </h1>
             <span
-              class="inline-block h-1 w-20 mt-4 rounded bg-green-500"
+              class="inline-block h-1 w-20 mt-4 rounded bg-[#34cc81]"
             ></span>
           </div>
           <div class="flex lg:flex-row flex-col lg:mx-20 mx-8 gap-24 mt-20">
             <div class="bg-gray-200 rounded-md p-8 lg:w-72 lg:-rotate-3">
-              <ul class="list-disc font-medium">
-                <li class="my-2">
-                  Ich muss die Tracking-Qualität aufgrund von iOS 14 und 15
-                  verbessern
+              <ul class="lg:m-0 mx-4 font-medium">
+                <li class="my-2 flex gap-2">
+                  <img
+                    src="~/assets/icons/checkbox.svg"
+                    alt="checkbox"
+                    class="self-start"
+                  />
+                  <span
+                    >Ich muss die Tracking-Qualität aufgrund von iOS 14 und 15
+                    verbessern</span
+                  >
                 </li>
-                <li class="my-2">
-                  Ich möchte die Conversion-Genauigkeit maximieren
+                <li class="my-2 flex gap-2">
+                  <img
+                    src="~/assets/icons/checkbox.svg"
+                    alt="checkbox"
+                    class="self-start"
+                  />
+                  <span>Ich möchte die Conversion-Genauigkeit maximieren</span>
                 </li>
-                <li class="my-2">
-                  Meine Agentur braucht mich, um mein Tracking für Google Ads,
-                  Facebook, GA zu korrigieren
+                <li class="my-2 flex gap-2">
+                  <img
+                    src="~/assets/icons/checkbox.svg"
+                    alt="checkbox"
+                    class="self-start"
+                  />
+                  <span>
+                    Meine Agentur braucht mich, um mein Tracking für Google Ads,
+                    Facebook, GA zu korrigieren</span
+                  >
                 </li>
-                <li class="my-2">
-                  Meine Datenschicht für den Google Tag Manager ist ein
-                  Durcheinander
+                <li class="my-2 flex gap-2">
+                  <img
+                    src="~/assets/icons/checkbox.svg"
+                    alt="checkbox"
+                    class="self-start"
+                  /><span
+                    >Meine Datenschicht für den Google Tag Manager ist ein
+                    Durcheinander</span
+                  >
                 </li>
-                <li class="my-2">
-                  Ich benötige Tracking, das DSGVO-konform ist
+                <li class="my-2 flex gap-2">
+                  <img
+                    src="~/assets/icons/checkbox.svg"
+                    alt="checkbox"
+                    class="self-start"
+                  /><span>Ich benötige Tracking, das DSGVO-konform ist</span>
                 </li>
-                <li class="my-2">
-                  Ich vertraue meinen Google Analytics-Daten nicht
+                <li class="my-2 flex gap-2">
+                  <img
+                    src="~/assets/icons/checkbox.svg"
+                    alt="checkbox"
+                    class="self-start"
+                  /><span
+                    >Ich vertraue meinen Google Analytics-Daten nicht</span
+                  >
                 </li>
               </ul>
             </div>
@@ -69,11 +104,12 @@
                 <b>erkannt</b> werden.
               </p>
               <div>
-                <button
-                  class="border-2 rounded-full border-green-500 p-4 mt-4 text-white hover:text-green-600 bg-green-500 hover:bg-white transition duration-300 tracking-wider font-bold"
+                <NuxtLink
+                  to="/contact"
+                  class="border-2 rounded-full border-[#34cc81] p-4 inline-block mt-4 text-white hover:text-green-600 bg-[#34cc81] hover:bg-white transition duration-300 tracking-wider font-bold"
                 >
                   KONTAKT AUFNEHMEN
-                </button>
+                </NuxtLink>
               </div>
             </div>
           </div>
@@ -90,11 +126,12 @@
           <h1 class="text-3xl text-center mx-auto font-bold text-gray-100">
             Jetzt kostenloses Beratungs­gespräch vereinbaren!
           </h1>
-          <button
+          <NuxtLink
+            to="/contact"
             class="border-2 rounded-full mx-auto border-white p-4 text-white font-bold tracking-wider hover:bg-green-600 hover:border-green-600 transition duration-300"
           >
             JETZT ANFRAGEN
-          </button>
+          </NuxtLink>
         </div>
       </div>
     </section>
@@ -108,7 +145,7 @@
             Jetzt die Vorteile von Serverside-Tracking nutzen
           </h1>
           <span
-            class="inline-block h-1 w-20 lg:mx-20 mt-4 rounded bg-green-500"
+            class="inline-block h-1 w-20 lg:mx-20 mt-4 rounded bg-[#34cc81]"
           ></span>
         </div>
         <div
@@ -131,15 +168,13 @@
               <div>
                 <p class="leading-relaxed w-full mx-auto">
                   Verbringen Sie
-                  <b class="text-green-500"> keine </b> Zeit damit,
-                  <b class="text-green-500">Formeln</b> zu erstellen und Daten
-                  in Excel-Dokumenten zu <b class="text-green-500">sammeln</b>.
-                  Erhalten Sie Zugriff auf
-                  <b class="text-green-500">leistungsstarke</b> Dashboards, die
-                  alle KPIs über Ihren
-                  <b class="text-green-500">Medieneinkauf</b> und die Leistung
-                  Ihrer Partner in
-                  <b class="text-green-500">Echtzeit</b> anzeigen.
+                  <b class="text-"> keine </b> Zeit damit,
+                  <b class="text-">Formeln</b> zu erstellen und Daten in
+                  Excel-Dokumenten zu <b class="text-">sammeln</b>. Erhalten Sie
+                  Zugriff auf <b class="text-">leistungsstarke</b> Dashboards,
+                  die alle KPIs über Ihren
+                  <b class="text-">Medieneinkauf</b> und die Leistung Ihrer
+                  Partner in <b class="text-">Echtzeit</b> anzeigen.
                 </p>
               </div>
             </div>
@@ -160,14 +195,13 @@
 
               <div>
                 <p class="leading-relaxed w-full mx-auto">
-                  Überwachen Sie auf <b class="text-green-500">einfache</b> und
-                  <b class="text-green-500">unkomplizierte</b> Weise, woher der
+                  Überwachen Sie auf <b class="text-">einfache</b> und
+                  <b class="text-">unkomplizierte</b> Weise, woher der
                   Datenverkehr kommt. Erkennen Sie, welche Besuche zu
-                  <b class="text-green-500">Conversions</b> werden, weisen Sie
-                  das <b class="text-green-500">Budget</b> dem zu, was am besten
-                  funktioniert, und
-                  <b class="text-green-500">eliminieren</b> Sie
-                  <b class="text-green-500">verschwendete</b>
+                  <b class="text-">Conversions</b> werden, weisen Sie das
+                  <b class="text-">Budget</b> dem zu, was am besten
+                  funktioniert, und <b class="text-">eliminieren</b> Sie
+                  <b class="text-">verschwendete</b>
                   Werbeausgaben.
                 </p>
               </div>
@@ -188,17 +222,16 @@
 
               <div>
                 <p class="leading-relaxed w-full mx-auto">
-                  Der Niedergang von <b class="text-green-500">Cookies</b> von
+                  Der Niedergang von <b class="text-">Cookies</b> von
                   Drittanbietern macht eine genaue
-                  <b class="text-green-500"> Verfolgung </b> und
-                  <b class="text-green-500">Zuordnung</b>
+                  <b class="text-"> Verfolgung </b> und
+                  <b class="text-">Zuordnung</b>
                   schwierig, wenn nicht sogar unmöglich. Mit der
-                  <b class="text-green-500">cookielosen</b>
-                  <b class="text-green-500">Tracking-Lösung</b> von Ads-Tracking
-                  füllen Sie die <b class="text-green-500">Lücken</b> und
-                  erhalten die volle
-                  <b class="text-green-500">Kontrolle</b> über die
-                  <b class="text-green-500">Leistung</b>
+                  <b class="text-">cookielosen</b>
+                  <b class="text-">Tracking-Lösung</b> von Ads-Tracking füllen
+                  Sie die <b class="text-">Lücken</b> und erhalten die volle
+                  <b class="text-">Kontrolle</b> über die
+                  <b class="text-">Leistung</b>
                   jedes Schritts der Reise Ihrer Kunden.
                 </p>
               </div>
@@ -206,15 +239,17 @@
           </div>
         </div>
         <div class="flex lg:mx-20 lg:justify-start justify-center">
-          <button
-            class="border-2 rounded-full lg:self-start self-center border-green-500 p-4 mt-4 text-white hover:text-green-600 bg-green-500 hover:bg-white transition duration-300 tracking-wider font-bold"
+          <NuxtLink
+            to="/contact"
+            class="border-2 rounded-full lg:self-start self-center border-[#34cc81] p-4 mt-4 text-white hover:text-green-600 bg-[#34cc81] hover:bg-white transition duration-300 tracking-wider font-bold"
           >
             KONTAKT AUFNEHMEN
-          </button>
+          </NuxtLink>
         </div>
       </div>
     </section>
     <HomeTeam />
+
     <section class="text-gray-600 bg-[#34cc81dd] body-font">
       <div class="container px-5 py-16 mx-auto">
         <div
@@ -223,17 +258,18 @@
           <h1 class="text-3xl text-center mx-auto font-bold text-gray-100">
             Jetzt kostenloses Beratungs­gespräch vereinbaren!
           </h1>
-          <button
+          <NuxtLink
+            to="/contact"
             class="border-2 rounded-full mx-auto border-white p-4 text-white font-bold tracking-wider hover:bg-green-600 hover:border-green-600 transition duration-300"
           >
             JETZT ANFRAGEN
-          </button>
+          </NuxtLink>
         </div>
       </div>
     </section>
   </div>
 </template>
 
-<script setup></script>
+<script></script>
 
 <style scoped></style>

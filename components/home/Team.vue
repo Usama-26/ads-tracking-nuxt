@@ -23,10 +23,11 @@
             <div class="h-full flex flex-col items-center text-center">
               <img
                 alt="team"
+                id="teamMember"
                 class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
                 src="~/assets/images/team-1.jpg"
               />
-              <div class="w-full">
+              <div class="bg-[#34cc81]">
                 <h2 class="title-font font-medium text-lg text-gray-900">
                   Bünyamin Alirkilicarslan
                 </h2>
@@ -38,6 +39,7 @@
             <div class="h-full flex flex-col items-center text-center">
               <img
                 alt="team"
+                id="teamMember"
                 class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
                 src="~/assets/images/team-2.jpg"
               />
@@ -53,6 +55,7 @@
             <div class="h-full flex flex-col items-center text-center">
               <img
                 alt="team"
+                id="teamMember"
                 class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
                 src="~/assets/images/team-3.png"
               />
@@ -68,6 +71,7 @@
             <div class="h-full flex flex-col items-center text-center">
               <img
                 alt="team"
+                id="teamMember"
                 class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
                 src="~/assets/images/team-4.png"
               />
@@ -87,4 +91,13 @@
 
 <script></script>
 
-<style scoped></style>
+<style scoped>
+/* #teamMember::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #34cc81;
+} */
+</style>

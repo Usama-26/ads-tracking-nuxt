@@ -12,11 +12,12 @@
           Seiten richtig erfasst.
         </p>
         <div class="flex justify-center">
-          <button
-            class="border-2 rounded-full w-72 border-white p-4 text-gray-100 hover:bg-green-600 hover:border-green-600 transition duration-300"
+          <NuxtLink
+            to="/contact"
+            class="inline-block border-2 rounded-full w-72 border-white text-center p-4 text-gray-100 hover:bg-green-600 hover:border-green-600 transition duration-300"
           >
             JETZT KONTAKT AUFNEHMEN
-          </button>
+          </NuxtLink>
         </div>
       </div>
     </div>
