@@ -10,9 +10,10 @@
           </h1>
           <div class="border-b-4 w-24 border-green-500 inline-block"></div>
           <p class="my-10 leading-relaxed text-gray-100">
-            Nicht nur das, was wir tun, ist entscheidend für unseren gemeinsamen
-            Erfolg. Entscheidend ist auch, wie wir etwas tun. Lesen Sie hier,
-            was uns besonders macht und wofür wir stehen.
+            Nicht nur das, <span class="text-green-500">was</span> wir tun, ist
+            entscheidend für unseren gemeinsamen Erfolg. Entscheidend ist auch,
+            <span class="text-green-500">wie</span> wir etwas tun. Lesen Sie
+            hier, was uns besonders macht und wofür wir stehen.
           </p>
         </div>
       </div>

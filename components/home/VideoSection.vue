@@ -14,23 +14,28 @@
           <div
             class="max-w-xl flex flex-col gap-4 lg:text-xl text-base leading-7"
           >
-            <p>Die genial einfache Lösung ist das serverseitige Tracking.</p>
+            <p>
+              Die genial einfache <b>Lösung</b> ist das
+              <b>serverseitige Tracking</b>.
+            </p>
             <p>
               Unabhängig von Browser-Einstellungen können, mit serverseitigem
-              Tracking bis zu 100% aller Daten sicher erfasst werden.
+              Tracking <b>bis zu 100%</b> aller Daten sicher erfasst werden.
             </p>
             <p>
-              Dadurch lassen sich tote Anzeigen als solche leicht identifizieren
-              und das freiwerdende Budget kann in den Kanälen und Kampagnen
-              eingesetzt werden, die wirklich Ergebnisse bringen. Eine
-              Verbesserung der Gesamtperformance und Umsatzsteigerung bei Ihren
-              Kunden ist unvermeidlich.
+              Dadurch lassen sich <b>tote</b> Anzeigen als solche leicht
+              identifizieren und das freiwerdende <b>Budget</b> kann in den
+              Kanälen und Kampagnen eingesetzt werden, die wirklich
+              <b>Ergebnisse</b>
+              bringen. Eine Verbesserung der <b>Gesamtperformance</b> und
+              <b>Umsatzsteigerung</b> bei Ihren Kunden ist unvermeidlich.
             </p>
             <p>
-              Unser Unternehmen ist darauf spezialisiert, das serverseitige
-              Tracking für alle gängigen Shopsysteme schnell, zuverlässig und
-              kostengünstig einzurichten. Selbstverständlich alles 100%
-              gesetzeskonform.
+              Unser <b>Unternehmen</b> ist darauf spezialisiert, das
+              <b>serverseitige Tracking</b> für alle gängigen
+              <b>Shopsysteme</b> schnell, zuverlässig und
+              <b>kostengünstig</b> einzurichten. Selbstverständlich alles 100%
+              <b>gesetzeskonform</b>.
             </p>
           </div>
           <div class="p-4 bg-white h-full self-center border-white shadow-md">

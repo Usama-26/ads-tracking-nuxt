@@ -11,9 +11,10 @@
               class="inline-block h-1 w-20 mt-4 rounded bg-green-500"
             ></span>
             <h3 class="font-medium text-xl text-gray-600">
-              Nur ein Anruf oder Klick genügt und Sie sind der Lösung eines der
-              scheinbar unlösbaren Marketingprobleme bereits ein gutes Stück
-              näher.
+              Nur ein <b>Anruf</b> oder Klick genügt und Sie sind der
+              <b>Lösung</b>
+              eines der scheinbar unlösbaren <b>Marketingprobleme</b> bereits
+              ein <b>gutes</b> Stück näher.
             </h3>
           </div>
         </div>

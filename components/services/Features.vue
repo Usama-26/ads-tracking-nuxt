@@ -80,21 +80,54 @@
               einsatzbereiten GTM-Container, der genau auf Ihren Shop
               zugeschnitten ist.
             </p>
-            <ul class="list-disc lg:m-0 mx-4">
-              <li class="my-2">
-                Für Sie erledigt: Setup-Option, bei der wir alles für Sie
-                einrichten
+            <ul class="lg:m-0 mx-4">
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span
+                  >Für Sie erledigt: Setup-Option, bei der wir alles für Sie
+                  einrichten</span
+                >
               </li>
-              <li class="my-2">
-                Google Analytics (GA4 + UA), Google Ads, Facebook Pixel und
-                viele andere
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span
+                  >Google Analytics (GA4 + UA), Google Ads, Facebook Pixel und
+                  viele andere</span
+                >
               </li>
-              <li class="my-2">
-                Vorgefertigter GTM-Container mit den wichtigsten Tags, Triggern
-                und Variablen
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span
+                  >Vorgefertigter GTM-Container mit den wichtigsten Tags,
+                  Triggern und Variablen</span
+                >
               </li>
-              <li class="my-2">Kundenspezifische Sonderlösungen möglich</li>
-              <li class="my-2">Tests & Datenvalidierung</li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                /><span>Kundenspezifische Sonderlösungen möglich</span>
+              </li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                /><span>Tests & Datenvalidierung</span>
+              </li>
             </ul>
           </div>
         </div>
@@ -112,20 +145,55 @@
               Ads-Tracking bietet ein vollständiges Google Analytics-Setup mit
               vielen benutzerdefinierten Berichten, Dimensionen und Metriken.
             </p>
-            <ul class="list-disc lg:m-0 mx-4">
-              <li class="my-2">
-                Das kürzlich eingeführte, neue Google Analytics: GA4
+            <ul class="lg:m-0 mx-4">
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span
+                  >Das kürzlich eingeführte, neue Google Analytics: GA4</span
+                >
               </li>
-              <li class="my-2">
-                Mehrere Analytics-Properties (GA4 + Universal Analytics)
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span
+                  >Mehrere Analytics-Properties (GA4 + Universal
+                  Analytics)</span
+                >
               </li>
-              <li class="my-2">
-                Benutzerdefinierte Dimensionen, Metriken und Berichte
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span>
+                  Benutzerdefinierte Dimensionen, Metriken und Berichte</span
+                >
               </li>
-              <li class="my-2">
-                Benutzer Metriken wie Benutzerneuheit, -Typ, -Häufigkeit etc.
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                /><span
+                  >Benutzer Metriken wie Benutzerneuheit, -Typ, -Häufigkeit
+                  etc.</span
+                >
               </li>
-              <li class="my-2">Tests & Datenvalidierung</li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                /><span>Tests & Datenvalidierung</span>
+              </li>
             </ul>
           </div>
           <img
@@ -178,12 +246,45 @@
               Datenebenen und alle verfügbaren Daten über Google Tag Manager
               verbindet.
             </p>
-            <ul class="list-disc mx-4 lg:m-0">
-              <li class="my-2">Tags für die Remarketing-Einrichtung</li>
-              <li class="my-2">Ereignisverfolgung</li>
-              <li class="my-2">Conversion-Tracking</li>
-              <li class="my-2">Produktansichten</li>
-              <li class="my-2">Tests & Datenvalidierung</li>
+            <ul class="lg:m-0 mx-4">
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span>Tags für die Remarketing-Einrichtung</span>
+              </li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span>Ereignisverfolgung</span>
+              </li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span>Conversion-Tracking</span>
+              </li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                /><span>Produktansichten</span>
+              </li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                /><span>Tests & Datenvalidierung</span>
+              </li>
             </ul>
           </div>
           <img
@@ -214,14 +315,41 @@
               Holen Sie sich alle wichtigen Ereignisse in Ihrem Facebook-Pixel
               zusammen mit Ihren dynamischen Retargeting-Listen.
             </p>
-            <ul class="list-disc mx-4 lg:m-0">
-              <li class="my-2">
-                Ereignisverfolgung. (in den Warenkorb legen, zur Kasse gehen,
-                kaufen)
+            <ul class="lg:m-0 mx-4">
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span
+                  >Ereignisverfolgung. (in den Warenkorb legen, zur Kasse gehen,
+                  kaufen)</span
+                >
               </li>
-              <li class="my-2">Produktansichten</li>
-              <li class="my-2">Conversion-Tracking</li>
-              <li class="my-2">Tests & Datenvalidierung.</li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span>Produktansichten</span>
+              </li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span>Conversion-Tracking</span>
+              </li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                /><span>Tests & Datenvalidierung</span>
+              </li>
             </ul>
           </div>
         </div>
@@ -243,16 +371,45 @@
               Sie alle wichtigen Kennzahlen an einem Ort sehen können. Der
               Bericht enthält:
             </p>
-            <ul class="list-disc lg:m-0 mx-4">
-              <li class="my-2">
-                Produkte mit der besten/schlechtesten Leistung.
+            <ul class="lg:m-0 mx-4">
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span>Produkte mit der besten/schlechtesten Leistung.</span>
               </li>
-              <li class="my-2">
-                Kampagnen mit der besten/schlechten Leistung.
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span>Kampagnen mit der besten/schlechten Leistung.</span>
               </li>
-              <li class="my-2">Geografische Analyse.</li>
-              <li class="my-2">E-Commerce-Trichter.</li>
-              <li class="my-2">Viele andere wichtige Metriken.</li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span>Geografische Analyse.</span>
+              </li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                /><span>E-Commerce-Trichter</span>
+              </li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                /><span>Viele andere wichtige Metriken.</span>
+              </li>
             </ul>
           </div>
           <img
@@ -285,16 +442,41 @@
               zusätzliche Kosten durch
             </p>
             <ul class="list-disc mx-4 lg:m-0">
-              <li class="my-2">
-                Datenanalyse-Gesundheitscheck für Ihre Konten
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span>Datenanalyse-Gesundheitscheck für Ihre Konten</span>
               </li>
-              <li class="my-2">
-                Analysieren Sie die Done-For-You-Setup-Option
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span>Analysieren Sie die Done-For-You-Setup-Option</span>
               </li>
-              <li class="my-2">
-                Maßgeschneiderte, einzigartige Lösungen für Ihre Bedürfnisse
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span
+                  >Maßgeschneiderte, einzigartige Lösungen für Ihre
+                  Bedürfnisse</span
+                >
               </li>
-              <li class="my-2">Tests & Datenvalidierung</li>
+              <li class="my-2 flex gap-2">
+                <img
+                  src="~/assets/icons/checkbox.svg"
+                  alt="checkbox"
+                  class="self-start"
+                />
+                <span>Tests & Datenvalidierung</span>
+              </li>
             </ul>
             <p>
               Wir stellen Ihnen auch eine Videoaufzeichnung zur Verfügung, in
@@ -308,6 +490,13 @@
   </div>
 </template>
 
-<script setup></script>
+<script>
+import { CheckCircleIcon } from "@heroicons/vue/24/outline/index.js";
+export default {
+  components: {
+    CheckCircleIcon,
+  },
+};
+</script>
 
 <style scoped></style>

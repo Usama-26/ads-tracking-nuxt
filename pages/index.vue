@@ -46,25 +46,27 @@
               class="max-w-2xl flex flex-col gap-4 lg:text-xl text-md leading-7 font-medium"
             >
               <p>
-                Exakte Daten aus der Ad-Performance sind seit IOS 14 und durch
-                das zunehmende, teils sogar standardmäßig voreingestellte
-                Trackingverbot auf den Endgeräten der User kaum noch zu
-                bekommen. Die fatale Folge: Das Browser-Tracking bildet nur
-                einen kleinen Prozentsatz der Daten ab.
+                Exakte Daten aus der Ad-Performance sind seit <b>IOS 14</b> und
+                durch das zunehmende, teils sogar standardmäßig voreingestellte
+                <b>Trackingverbot</b> auf den Endgeräten der User kaum noch zu
+                bekommen. Die fatale Folge: Das <b>Browser-Tracking</b> bildet
+                nur einen kleinen Prozentsatz der Daten ab.
               </p>
               <p>
-                Wenn von 10 Verkäufen nur 3 angezeigt werden, werden Budgets von
-                Kunden zwangsläufig teils verschleudert, weil es gar keine
-                exakte Möglichkeit der Kontrolle, Nachverfolgung und Optimierung
-                der Kampagnen gibt. Damit lässt sich keine sinnvolle Planung der
+                Wenn von <b>10</b> Verkäufen nur <b>3</b> angezeigt werden,
+                werden Budgets von Kunden zwangsläufig teils
+                <b>verschleudert</b>, weil es gar keine exakte Möglichkeit der
+                Kontrolle, Nachverfolgung und Optimierung der Kampagnen gibt.
+                Damit lässt sich keine <b>sinnvolle</b> Planung der
                 Werbekampagnen durchführen, weil eben nicht genau gesagt werden
-                kann, welche Werbung zu welchem Ergebnis geführt hat.
+                kann, welche Werbung zu welchem <b>Ergebnis </b> geführt hat.
               </p>
               <p>
-                Die Folgen sind teuer: Wenig effektive Werbeschaltungen werden
-                nicht erkannt und daher unnötig weitergeführt, während die
-                Kampagnen, die wirklich zu Umsätzen führen nicht verfeinert
-                werden können, weil sie einfach nicht erkannt werden.
+                Die Folgen sind <b>teuer</b>: Wenig effektive Werbeschaltungen
+                werden nicht erkannt und daher unnötig weitergeführt, während
+                die Kampagnen, die wirklich zu <b>Umsätzen</b> führen nicht
+                verfeinert werden können, weil sie einfach nicht
+                <b>erkannt</b> werden.
               </p>
               <div>
                 <button
@@ -127,12 +129,17 @@
               </h2>
 
               <div>
-                <p class="leading-relaxed lg:w-4/5 sm:w-3/5 w-full mx-auto">
-                  Verbringen Sie keine Zeit damit, Formeln zu erstellen und
-                  Daten in Excel-Dokumenten zu sammeln. Erhalten Sie Zugriff auf
-                  leistungsstarke Dashboards, die alle KPIs über Ihren
-                  Medieneinkauf und die Leistung Ihrer Partner in Echtzeit
-                  anzeigen.
+                <p class="leading-relaxed w-full mx-auto">
+                  Verbringen Sie
+                  <b class="text-green-500"> keine </b> Zeit damit,
+                  <b class="text-green-500">Formeln</b> zu erstellen und Daten
+                  in Excel-Dokumenten zu <b class="text-green-500">sammeln</b>.
+                  Erhalten Sie Zugriff auf
+                  <b class="text-green-500">leistungsstarke</b> Dashboards, die
+                  alle KPIs über Ihren
+                  <b class="text-green-500">Medieneinkauf</b> und die Leistung
+                  Ihrer Partner in
+                  <b class="text-green-500">Echtzeit</b> anzeigen.
                 </p>
               </div>
             </div>
@@ -152,11 +159,15 @@
               </h2>
 
               <div>
-                <p class="leading-relaxed lg:w-4/5 sm:w-3/5 w-full mx-auto">
-                  Überwachen Sie auf einfache und unkomplizierte Weise, woher
-                  der Datenverkehr kommt. Erkennen Sie, welche Besuche zu
-                  Conversions werden, weisen Sie das Budget dem zu, was am
-                  besten funktioniert, und eliminieren Sie verschwendete
+                <p class="leading-relaxed w-full mx-auto">
+                  Überwachen Sie auf <b class="text-green-500">einfache</b> und
+                  <b class="text-green-500">unkomplizierte</b> Weise, woher der
+                  Datenverkehr kommt. Erkennen Sie, welche Besuche zu
+                  <b class="text-green-500">Conversions</b> werden, weisen Sie
+                  das <b class="text-green-500">Budget</b> dem zu, was am besten
+                  funktioniert, und
+                  <b class="text-green-500">eliminieren</b> Sie
+                  <b class="text-green-500">verschwendete</b>
                   Werbeausgaben.
                 </p>
               </div>
@@ -176,13 +187,19 @@
               </h2>
 
               <div>
-                <p class="leading-relaxed lg:w-4/5 sm:w-3/5 w-full mx-auto">
-                  Der Niedergang von Cookies von Drittanbietern macht eine
-                  genaue Verfolgung und Zuordnung schwierig, wenn nicht sogar
-                  unmöglich. Mit der cookielosen Tracking-Lösung von
-                  Ads-Tracking füllen Sie die Lücken und erhalten die volle
-                  Kontrolle über die Leistung jedes Schritts der Reise Ihrer
-                  Kunden.
+                <p class="leading-relaxed w-full mx-auto">
+                  Der Niedergang von <b class="text-green-500">Cookies</b> von
+                  Drittanbietern macht eine genaue
+                  <b class="text-green-500"> Verfolgung </b> und
+                  <b class="text-green-500">Zuordnung</b>
+                  schwierig, wenn nicht sogar unmöglich. Mit der
+                  <b class="text-green-500">cookielosen</b>
+                  <b class="text-green-500">Tracking-Lösung</b> von Ads-Tracking
+                  füllen Sie die <b class="text-green-500">Lücken</b> und
+                  erhalten die volle
+                  <b class="text-green-500">Kontrolle</b> über die
+                  <b class="text-green-500">Leistung</b>
+                  jedes Schritts der Reise Ihrer Kunden.
                 </p>
               </div>
             </div>
