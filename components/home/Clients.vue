@@ -19,6 +19,8 @@
           interval: 2000,
           pauseOnFocus: false,
           pauseOnHover: false,
+          speed: 4000,
+
           autoScroll: {
             speed: 2,
             autoStart: true,
@@ -29,27 +31,15 @@
         :extensions="AutoScroll"
       >
         <SplideSlide>
-          <img
-            src="~/assets/images/clients/banknow_weiss.png"
-            alt="Banknow Weiss"
-            class="h-24"
-          />
+          <img src="~/assets/images/clients/banknow_weiss.png" alt="Banknow Weiss" class="h-24" />
         </SplideSlide>
 
         <SplideSlide>
-          <img
-            src="~/assets/images/clients/dieci.png"
-            alt="Dieci"
-            class="h-24"
-          />
+          <img src="~/assets/images/clients/dieci.png" alt="Dieci" class="h-24" />
         </SplideSlide>
 
         <SplideSlide>
-          <img
-            src="~/assets/images/clients/edelweiss.png"
-            alt="EdelWeiss"
-            class="h-24"
-          />
+          <img src="~/assets/images/clients/edelweiss.png" alt="EdelWeiss" class="h-24" />
         </SplideSlide>
 
         <SplideSlide>
@@ -67,11 +57,7 @@
           />
         </SplideSlide>
         <SplideSlide>
-          <img
-            src="~/assets/images/clients/helsana.png"
-            alt="Feldschloesschen"
-            class="h-24"
-          />
+          <img src="~/assets/images/clients/helsana.png" alt="Feldschloesschen" class="h-24" />
         </SplideSlide>
         <SplideSlide>
           <img
@@ -88,60 +74,28 @@
           />
         </SplideSlide>
         <SplideSlide>
-          <img
-            src="~/assets/images/clients/mobiliar.png"
-            alt="Feldschloesschen"
-            class="h-24"
-          />
+          <img src="~/assets/images/clients/mobiliar.png" alt="Feldschloesschen" class="h-24" />
         </SplideSlide>
         <SplideSlide>
-          <img
-            src="~/assets/images/clients/newhome.png"
-            alt="Feldschloesschen"
-            class="h-24"
-          />
+          <img src="~/assets/images/clients/newhome.png" alt="Feldschloesschen" class="h-24" />
         </SplideSlide>
         <SplideSlide>
-          <img
-            src="~/assets/images/clients/ramseier.png"
-            alt="Feldschloesschen"
-            class="h-24"
-          />
+          <img src="~/assets/images/clients/ramseier.png" alt="Feldschloesschen" class="h-24" />
         </SplideSlide>
         <SplideSlide>
-          <img
-            src="~/assets/images/clients/sanitas.png"
-            alt="Feldschloesschen"
-            class="h-24"
-          />
+          <img src="~/assets/images/clients/sanitas.png" alt="Feldschloesschen" class="h-24" />
         </SplideSlide>
         <SplideSlide>
-          <img
-            src="~/assets/images/clients/starbucks.png"
-            alt="Feldschloesschen"
-            class="h-24"
-          />
+          <img src="~/assets/images/clients/starbucks.png" alt="Feldschloesschen" class="h-24" />
         </SplideSlide>
         <SplideSlide>
-          <img
-            src="~/assets/images/clients/swisscom.png"
-            alt="Feldschloesschen"
-            class="h-24"
-          />
+          <img src="~/assets/images/clients/swisscom.png" alt="Feldschloesschen" class="h-24" />
         </SplideSlide>
         <SplideSlide>
-          <img
-            src="~/assets/images/clients/wallis.png"
-            alt="Feldschloesschen"
-            class="h-24"
-          />
+          <img src="~/assets/images/clients/wallis.png" alt="Feldschloesschen" class="h-24" />
         </SplideSlide>
         <SplideSlide>
-          <img
-            src="~/assets/images/clients/wingo.png"
-            alt="Feldschloesschen"
-            class="h-24"
-          />
+          <img src="~/assets/images/clients/wingo.png" alt="Feldschloesschen" class="h-24" />
         </SplideSlide>
       </Splide>
     </div>
