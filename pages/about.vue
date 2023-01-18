@@ -83,40 +83,45 @@
                 <span class="inline-block w-full bg-gray-200 py-1 px-2 h-6"></span>
                 <span
                   class="inline-block overlay-green w-full py-1 px-2 h-6 bg-[#34cc81] text-end text-sm text-white absolute top-0 left-0 transition-all duration-300"
-                  >100%</span
                 >
+                  100%
+                </span>
               </div>
-              <label for="tagManager">Google Ads</label>
+              <label for="googleAds">Google Ads</label>
               <div class="relative">
                 <span class="inline-block w-full bg-gray-200 py-1 px-2 h-6"></span>
                 <span
                   class="inline-block overlay-green w-full py-1 px-2 h-6 bg-[#34cc81] text-end text-sm text-white absolute top-0 left-0 transition-all duration-300"
-                  >100%</span
                 >
+                  100%
+                </span>
               </div>
-              <label for="tagManager">Facebook</label>
+              <label for="Facebook">Facebook</label>
               <div class="relative">
                 <span class="inline-block w-full bg-gray-200 py-1 px-2 h-6"></span>
                 <span
                   class="inline-block overlay-green w-[95%] py-1 px-2 h-6 bg-[#34cc81] text-end text-sm text-white absolute top-0 left-0 transition-all duration-300"
-                  >95%</span
                 >
+                  95%
+                </span>
               </div>
-              <label for="tagManager">Tracking, analysis and controlling</label>
+              <label for="Tracking">Tracking, analysis and controlling</label>
               <div class="relative">
                 <span class="inline-block w-full bg-gray-200 py-1 px-2 h-6"></span>
                 <span
                   class="inline-block overlay-green w-full py-1 px-2 h-6 bg-[#34cc81] text-end text-sm text-white absolute top-0 left-0 transition-all duration-300"
-                  >100%</span
                 >
+                  100%
+                </span>
               </div>
-              <label for="tagManager">Conversion Optimization</label>
+              <label for="Conversion">Conversion Optimization</label>
               <div class="relative">
                 <span class="inline-block w-full bg-gray-200 py-1 px-2 h-6"></span>
                 <span
                   class="inline-block overlay-green w-[90%] py-1 px-2 h-6 bg-[#34cc81] text-end text-sm text-white absolute top-0 left-0 transition-all duration-300"
-                  >90%</span
                 >
+                  90%
+                </span>
               </div>
             </div>
           </div>
@@ -127,19 +132,7 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {};
-  },
-  mounted() {
-    window.addEventListener("scroll", () => {
-      const target = document.querySelector("#successSection");
-      const position = target.getBoundingClientRect();
-      if (position.top < window.innerHeight && position.bottom >= 0) {
-      }
-    });
-  },
-};
+export default {};
 </script>
 
 <style scoped></style>

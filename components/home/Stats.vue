@@ -28,26 +28,7 @@
 </template>
 
 <script>
-export default {
-  data() {
-    const sampleNum = 0;
-    return {
-      sampleNum,
-    };
-  },
-  mounted() {
-    const target = document.querySelector("#statsSection");
-    const position = target.getBoundingClientRect();
-    if (position.top < window.innerHeight && position.bottom >= 0) {
-      const intervalId = setInterval(() => {
-        this.sampleNum += 5;
-        if (this.sampleNum === 60) {
-          clearInterval(intervalId);
-        }
-      }, 100);
-    }
-  },
-};
+export default {};
 </script>
 
 <style scoped></style>
