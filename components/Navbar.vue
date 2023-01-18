@@ -1,9 +1,13 @@
 <template>
   <header
-    class="text-gray-600 z-10 w-full"
-    :class="isScrolled ? 'bg-white fixed top-0 p-3 shadow-md' : 'bg-zinc-800 p-5'"
+    class="text-gray-600 z-10 w-full border-b"
+    :class="
+      isScrolled
+        ? 'bg-white fixed top-0 p-3 shadow-md border-none'
+        : 'bg-zinc-700 p-5 border-zinc-500'
+    "
   >
-    <div class="mx-auto flex flex-wrap justify-between items-center">
+    <div class="mx-auto flex flex-wrap justify-between items-center h-10">
       <NuxtLink to="/">
         <img
           v-if="!isScrolled"
@@ -60,7 +64,7 @@
         </NuxtLink>
       </div>
       <button type="button" class="lg:hidden z-10" @click="isToggled = !isToggled">
-        <XMarkIcon v-if="isToggled" class="w-8 h-8 stroke-white" />
+        <XMarkIcon v-if="isToggled" class="w-6 h-6 stroke-2 stroke-white" />
         <Bars3Icon
           v-else
           class="w-8 h-8 lg:stroke-[#34cc81] stroke-white"
@@ -70,21 +74,21 @@
       <!-- Mobile Nav -->
       <div
         v-if="isToggled"
-        class="lg:hidden block fixed h-screen top-0 w-96 right-0 z-5 bg-[#34cc81]"
+        class="lg:hidden block fixed h-screen md:w-72 w-[90%] transition-all ease-linear shadow top-0 right-0 z-5 bg-[#34cc81]"
       >
-        <nav class="md:ml-auto mt-10 flex flex-wrap gap-8 items-center text-base justify-start">
-          <NuxtLink to="/" @click="isToggled = false" class="mobile-link">HOME</NuxtLink>
+        <nav class="mobile-nav mx-5 mt-24 flex flex-wrap items-center text-base justify-start">
+          <NuxtLink to="/" @click="isToggled = false" class="mobile-link">Home</NuxtLink>
           <NuxtLink to="/services" @click="isToggled = false" class="mobile-link">
-            DIENSTLEISTUNGEN</NuxtLink
-          >
-          <NuxtLink to="/customers" @click="isToggled = false" class="mobile-link">KUNDEN</NuxtLink>
-          <NuxtLink to="/about" @click="isToggled = false" class="mobile-link">ÜBER UNS</NuxtLink>
+            Dienstleistungen
+          </NuxtLink>
+          <NuxtLink to="/customers" @click="isToggled = false" class="mobile-link">Kunden</NuxtLink>
+          <NuxtLink to="/about" @click="isToggled = false" class="mobile-link">Über Uns</NuxtLink>
           <NuxtLink
             to="/contact"
             @click="isToggled = false"
-            class="text-center transition duration-200 py-2 ml-10 focus:outline-none border text-gray-100 hover:bg-[#34cc81] hover:border-[#34cc81] uppercase font-bold w-4/5"
+            class="text-center bg-white rounded-sm transition duration-200 mt-3 py-2 focus:outline-none border text-black font-bold w-full"
           >
-            KONTAKT
+            Kontakt
           </NuxtLink>
         </nav>
       </div>
@@ -123,5 +127,9 @@ export default {
 <style scoped>
 a.router-link-active {
   @apply text-green-600;
+}
+
+.mobile-nav > a.router-link-active {
+  @apply !text-white bg-[rgba(0,0,0,0.03)];
 }
 </style>

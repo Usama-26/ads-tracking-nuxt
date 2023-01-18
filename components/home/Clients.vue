@@ -1,25 +1,26 @@
 <template>
   <div class="bg-zinc-700">
-    <div class="max-w-screen-xl mx-auto">
+    <div class="container lg:px-20 px-5 mx-auto">
       <Splide
         :options="{
           type: 'loop',
           perPage: 7,
-          mediaQuery: 'max',
+          perMove: 7,
+          speed: 2000,
+          interval: 1,
           breakpoints: {
             640: {
-              perPage: 4,
+              perPage: 2,
+              perMove: 3,
               autoWidth: true,
             },
           },
-          perMove: 1,
           pagination: false,
           arrows: false,
           autoplay: true,
-          interval: 2000,
           pauseOnFocus: false,
           pauseOnHover: false,
-          speed: 4000,
+          easing: 'ease-in-out',
         }"
       >
         <SplideSlide>

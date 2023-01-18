@@ -2,16 +2,16 @@
   <footer class="text-gray-600 body-font footer-background">
     <div class="container py-16 lg:px-20 px-10 mx-auto">
       <div class="flex gap-8 md:flex-nowrap flex-wrap">
-        <div class="flex w-full gap-16">
-          <div class="w-1/2">
+        <div class="flex md:flex-nowrap flex-wrap w-full gap-16">
+          <div class="md:w-1/2 w-full">
             <div class="mb-8">
               <img
                 src="~/assets/images/ads-tracking-logo-white.svg"
                 alt="Ads Tracking Logo White"
-                class="w-60"
+                class="md:w-60 w-96"
               />
             </div>
-            <h3 class="font-bold text-sm leading-loose lg:w-4/5">
+            <h3 class="font-bold text-sm leading-loose pb-4 lg:w-4/5">
               Mehr Umsatz & bessere Daten – Ihr Vorsprung mit serverseitigem Tracking
             </h3>
             <NuxtLink
@@ -20,7 +20,7 @@
               >KONTAKT AUFNEHMEN</NuxtLink
             >
           </div>
-          <div class="w-1/2">
+          <div class="md:w-1/2 w-full">
             <h4 class="text-[#34cc81] tracking-widest">NAVIGATOR</h4>
             <ul class="text-sm">
               <li class="my-3">
@@ -61,8 +61,8 @@
             </ul>
           </div>
         </div>
-        <div class="flex w-full gap-16">
-          <div class="w-1/2">
+        <div class="flex md:flex-nowrap flex-wrap w-full gap-16">
+          <div class="md:w-1/2 w-full">
             <h4 class="text-[#34cc81] tracking-widest">KONTAKT</h4>
             <ul class="text-sm">
               <li class="my-3 hover:text-gray-900 hover:underline">
@@ -82,7 +82,7 @@
               </li>
             </ul>
           </div>
-          <div class="w-1/2">
+          <div class="md:w-1/2 w-full">
             <h4 class="text-[#34cc81] tracking-widest">UNTERNEHMEN</h4>
             <ul class="text-sm">
               <li class="my-3">
@@ -115,11 +115,11 @@
         <div class="w-1/2 border-t border-black mt-10"></div>
       </div>
       <div class="w-full flex flex-wrap text-center text-gray-600 mt-4">
-        <div class="w-1/3"></div>
-        <div class="w-1/3">
+        <div class="md:w-1/3 w-full"></div>
+        <div class="md:w-1/3 w-full mb-8">
           <span class="font-bold">Copyright © 2023 ADS Tracking</span>
         </div>
-        <div class="w-1/3">
+        <div class="md:w-1/3 w-full">
           <div class="flex justify-end gap-4">
             <a href="https://www.facebook.com/AdsTracking">
               <svg

@@ -1,23 +1,22 @@
 <template>
   <div>
     <section class="text-gray-600 bg-white">
-      <div class="container py-24 mx-auto">
-        <div class="flex flex-col w-full lg:mb-20 mb-10">
-          <div class="mx-8 lg:mx-20">
-            <h1 class="sm:text-4xl text-3xl font-bold title-font text-gray-900">
-              Ihr Schritt zu erfolgreichem Marketing: Rufen Sie uns an
-            </h1>
-            <span class="inline-block h-1 w-20 mt-4 rounded bg-green-500"></span>
-            <h3 class="font-medium text-xl text-gray-600">
-              Nur ein <b>Anruf</b> oder Klick genügt und Sie sind der
-              <b>Lösung</b>
-              eines der scheinbar unlösbaren <b>Marketingprobleme</b> bereits ein <b>gutes</b> Stück
-              näher.
-            </h3>
-          </div>
+      <div class="container px-5 py-24 mx-auto">
+        <div class="mx-5 lg:mx-20 mb-10">
+          <h1 class="sm:text-4xl text-3xl font-bold title-font text-gray-900">
+            Ihr Schritt zu erfolgreichem Marketing: Rufen Sie uns an
+          </h1>
+          <span class="inline-block h-1 w-20 mt-4 rounded bg-green-500"></span>
+          <h3 class="font-medium text-xl text-gray-600 mt-10">
+            Nur ein <b>Anruf</b> oder Klick genügt und Sie sind der
+            <b>Lösung</b>
+            eines der scheinbar unlösbaren <b>Marketingprobleme</b> bereits ein <b>gutes</b> Stück
+            näher.
+          </h3>
         </div>
-        <div class="mx-20 flex lg:flex-nowrap flex-wrap gap-8">
-          <div class="p-4 lg:w-1/4 sm:w-1/2">
+
+        <div class="flex lg:flex-nowrap flex-wrap mx-5 lg:mx-20 gap-4">
+          <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
             <div id="teamMember" class="relative flex flex-col items-center text-center">
               <img
                 alt="team"
@@ -32,7 +31,7 @@
               </div>
             </div>
           </div>
-          <div class="p-4 lg:w-1/4 sm:w-1/2">
+          <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
             <div id="teamMember" class="relative flex flex-col items-center text-center">
               <img
                 alt="team"
@@ -47,7 +46,7 @@
               </div>
             </div>
           </div>
-          <div class="p-4 lg:w-1/4 sm:w-1/2">
+          <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
             <div id="teamMember" class="relative flex flex-col items-center text-center">
               <img
                 alt="team"
@@ -62,7 +61,7 @@
               </div>
             </div>
           </div>
-          <div class="p-4 lg:w-1/4 sm:w-1/2">
+          <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
             <div id="teamMember" class="relative flex flex-col items-center text-center">
               <img
                 alt="team"

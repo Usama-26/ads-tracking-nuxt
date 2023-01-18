@@ -10,7 +10,7 @@ body {
   @apply mr-5 font-bold text-base text-gray-500 uppercase transition duration-200;
 }
 .mobile-link {
-  @apply ml-10 w-full font-bold text-white transition duration-200 hover:text-gray-100;
+  @apply border-b py-3 px-4 border-black/5 hover:bg-[rgba(0,0,0,0.03)] w-full font-bold text-sm text-white transition duration-200 hover:text-gray-100;
 }
 .table-cell {
   @apply px-4 text-left;

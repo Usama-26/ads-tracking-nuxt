@@ -1,6 +1,6 @@
 <template>
-  <section id="statsSection" class="text-gray-600 bg-[#34cc81dd] body-font">
-    <div class="container lg:px-24 px-5 py-16 mx-auto">
+  <section id="statsSection" class="text-gray-600 bg-[#34cc81dd]">
+    <div class="container lg:px-24 px-10 py-16 mx-auto">
       <div class="flex flex-col lg:gap-24 md:flex-row sm:items-center items-start justify-between">
         <div>
           <h1 class="text-2xl font-bold mb-4 text-gray-100">
