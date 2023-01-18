@@ -20,15 +20,7 @@
           pauseOnFocus: false,
           pauseOnHover: false,
           speed: 4000,
-
-          autoScroll: {
-            speed: 2,
-            autoStart: true,
-            pauseOnFocus: false,
-            pauseOnHover: false,
-          },
         }"
-        :extensions="AutoScroll"
       >
         <SplideSlide>
           <img src="~/assets/images/clients/banknow_weiss.png" alt="Banknow Weiss" class="h-24" />
@@ -104,13 +96,12 @@
 
 <script>
 import { Splide, SplideSlide } from "@splidejs/vue-splide";
-import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
+
 import "@splidejs/vue-splide/css";
 export default defineComponent({
   components: {
     Splide,
     SplideSlide,
-    AutoScroll,
   },
 });
 </script>

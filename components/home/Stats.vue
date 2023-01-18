@@ -1,5 +1,5 @@
 <template>
-  <section class="text-gray-600 bg-[#34cc81dd] body-font">
+  <section id="statsSection" class="text-gray-600 bg-[#34cc81dd] body-font">
     <div class="container lg:px-24 px-5 py-16 mx-auto">
       <div class="flex flex-col lg:gap-24 md:flex-row sm:items-center items-start justify-between">
         <div>
@@ -14,7 +14,7 @@
         </div>
         <div class="text-center font-bold text-white mx-auto lg:mt-0 mt-10">
           <h2>Zusätzliche</h2>
-          <h1 class="text-4xl font-normal my-2">60%</h1>
+          <h1 class="counting text-4xl font-normal my-2">60%</h1>
           <h4>erfassbare Daten</h4>
         </div>
         <div class="text-center font-bold text-white mx-auto lg:mt-0 mt-10">
@@ -27,22 +27,27 @@
   </section>
 </template>
 
-<script></script>
+<script>
+export default {
+  data() {
+    const sampleNum = 0;
+    return {
+      sampleNum,
+    };
+  },
+  mounted() {
+    const target = document.querySelector("#statsSection");
+    const position = target.getBoundingClientRect();
+    if (position.top < window.innerHeight && position.bottom >= 0) {
+      const intervalId = setInterval(() => {
+        this.sampleNum += 5;
+        if (this.sampleNum === 60) {
+          clearInterval(intervalId);
+        }
+      }, 100);
+    }
+  },
+};
+</script>
 
-<style scoped>
-@property --num {
-  syntax: "<integer>";
-  initial-value: 0;
-}
-
-div {
-  transition: --num 1s;
-  counter-reset: num var(--num);
-}
-div:hover {
-  --num: 10000;
-}
-div::after {
-  content: counter(num);
-}
-</style>
+<style scoped></style>

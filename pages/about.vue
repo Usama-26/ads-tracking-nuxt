@@ -11,34 +11,27 @@
           />
           <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <div class="flex flex-col w-full mb-10">
-              <h1
-                class="sm:text-4xl text-3xl font-bold title-font text-gray-900"
-              >
+              <h1 class="sm:text-4xl text-3xl font-bold title-font text-gray-900">
                 Begeisterung macht glücklich
               </h1>
-              <span
-                class="inline-block h-1 w-20 mt-4 rounded bg-green-500"
-              ></span>
+              <span class="inline-block h-1 w-20 mt-4 rounded bg-green-500"></span>
             </div>
 
             <p class="leading-relaxed text-lg p-4">
               Wir machen Sie glücklich, versprochen: Wir sind
               <span class="text-green-500">Dienstleister aus Leidenschaft</span>
-              und lieben, was wir tun. Als Spezialisten sind wir stolz auf unser
-              Know-how und unsere langjährige Erfahrung in der äußerst
-              speziellen Materie rund um serverseitiges Tracking. Dabei stets im
-              Mittelpunkt: Unsere Kunden. Das garantieren wir Ihnen.
+              und lieben, was wir tun. Als Spezialisten sind wir stolz auf unser Know-how und unsere
+              langjährige Erfahrung in der äußerst speziellen Materie rund um serverseitiges
+              Tracking. Dabei stets im Mittelpunkt: Unsere Kunden. Das garantieren wir Ihnen.
             </p>
             <p class="leading-relaxed text-lg p-4">
-              Wir sind <span class="text-green-500">ehrlich:</span> Wir wollen
-              mit Ihnen nicht nur „ein Projekt abwickeln“. Sondern wir möchten
-              verstehen, was Sie und Ihr Unternehmen tun und dann gemeinsam mit
-              Ihnen das Beste aus Ihrem Marketing herausholen.
+              Wir sind <span class="text-green-500">ehrlich:</span> Wir wollen mit Ihnen nicht nur
+              „ein Projekt abwickeln“. Sondern wir möchten verstehen, was Sie und Ihr Unternehmen
+              tun und dann gemeinsam mit Ihnen das Beste aus Ihrem Marketing herausholen.
               <span class="text-green-500"> Als Partner und dauerhaft.</span>
             </p>
             <p class="leading-relaxed text-lg p-4">
-              Viele unserer Kunden arbeiten seit mehreren Jahren mit uns
-              zusammen. Sie sind die
+              Viele unserer Kunden arbeiten seit mehreren Jahren mit uns zusammen. Sie sind die
               <NuxtLink to="/customers" class="text-green-500">
                 beste Referenz, die wir uns wünschen können</NuxtLink
               >.
@@ -68,7 +61,7 @@
       </div>
     </section>
     <!-- Success Section -->
-    <section class="text-gray-600 bg-white body-font overflow-hidden">
+    <section id="successSection" class="text-gray-600 bg-white body-font overflow-hidden">
       <div class="container px-5 lg:px-20 py-20 lg:py-24 mx-auto">
         <div class="mx-auto flex items-center lg:flex-nowrap flex-wrap gap-12">
           <div class="lg:w-1/2 w-full">
@@ -79,49 +72,52 @@
             />
           </div>
           <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 lg:mb-0">
-            <h2 class="text-md text-green-500 font-bold tracking-widest">
-              UNSERE FÄHIGKEITEN
-            </h2>
+            <h2 class="text-md text-green-500 font-bold tracking-widest">UNSERE FÄHIGKEITEN</h2>
             <h1 class="text-gray-900 text-4xl title-font font-bold my-6">
               Erfahrung in allen wichtigen Marketing-Disziplinen
             </h1>
 
             <div>
               <label for="tagManager">Google Tag Manager</label>
-              <progress
-                id="tagManager"
-                value="100"
-                max="100"
-                class="w-full bg-gray-200"
-              ></progress>
+              <div class="relative">
+                <span class="inline-block w-full bg-gray-200 py-1 px-2 h-6"></span>
+                <span
+                  class="inline-block overlay-green w-full py-1 px-2 h-6 bg-[#34cc81] text-end text-sm text-white absolute top-0 left-0 transition-all duration-300"
+                  >100%</span
+                >
+              </div>
               <label for="tagManager">Google Ads</label>
-              <progress
-                id="tagManager"
-                value="100"
-                max="100"
-                class="w-full bg-gray-200"
-              ></progress>
+              <div class="relative">
+                <span class="inline-block w-full bg-gray-200 py-1 px-2 h-6"></span>
+                <span
+                  class="inline-block overlay-green w-full py-1 px-2 h-6 bg-[#34cc81] text-end text-sm text-white absolute top-0 left-0 transition-all duration-300"
+                  >100%</span
+                >
+              </div>
               <label for="tagManager">Facebook</label>
-              <progress
-                id="tagManager"
-                value="95"
-                max="100"
-                class="w-full bg-gray-200"
-              ></progress>
+              <div class="relative">
+                <span class="inline-block w-full bg-gray-200 py-1 px-2 h-6"></span>
+                <span
+                  class="inline-block overlay-green w-[95%] py-1 px-2 h-6 bg-[#34cc81] text-end text-sm text-white absolute top-0 left-0 transition-all duration-300"
+                  >95%</span
+                >
+              </div>
               <label for="tagManager">Tracking, analysis and controlling</label>
-              <progress
-                id="tagManager"
-                value="100"
-                max="100"
-                class="w-full bg-gray-200"
-              ></progress>
+              <div class="relative">
+                <span class="inline-block w-full bg-gray-200 py-1 px-2 h-6"></span>
+                <span
+                  class="inline-block overlay-green w-full py-1 px-2 h-6 bg-[#34cc81] text-end text-sm text-white absolute top-0 left-0 transition-all duration-300"
+                  >100%</span
+                >
+              </div>
               <label for="tagManager">Conversion Optimization</label>
-              <progress
-                id="tagManager"
-                value="90"
-                max="100"
-                class="w-full bg-gray-200"
-              ></progress>
+              <div class="relative">
+                <span class="inline-block w-full bg-gray-200 py-1 px-2 h-6"></span>
+                <span
+                  class="inline-block overlay-green w-[90%] py-1 px-2 h-6 bg-[#34cc81] text-end text-sm text-white absolute top-0 left-0 transition-all duration-300"
+                  >90%</span
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -130,6 +126,20 @@
   </div>
 </template>
 
-<script setup></script>
+<script>
+export default {
+  data() {
+    return {};
+  },
+  mounted() {
+    window.addEventListener("scroll", () => {
+      const target = document.querySelector("#successSection");
+      const position = target.getBoundingClientRect();
+      if (position.top < window.innerHeight && position.bottom >= 0) {
+      }
+    });
+  },
+};
+</script>
 
 <style scoped></style>
