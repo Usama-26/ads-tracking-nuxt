@@ -1,20 +1,17 @@
 <template>
   <section class="text-gray-600 testimonials_bg">
-    <div class="container px-5 lg:px-20 py-24 mx-auto">
-      <h1
-        class="text-3xl font-medium title-font text-gray-900 mb-8 text-center"
-      >
+    <div class="container px-8 lg:px-20 py-24 mx-auto">
+      <h1 class="text-3xl font-medium title-font text-gray-900 mb-8 text-center">
         So denken unsere Kunden über uns
       </h1>
       <div class="mx-auto">
         <span class="block h-1 w-20 mx-auto mt-4 rounded bg-[#34cc81]"></span>
       </div>
       <p class="lg:w-4/5 w-full mx-auto font-bold mt-4 mb-8 text-center">
-        So denken unsere Kunden über uns Wie zufrieden unsere Kunden mit unseren
-        Tracking und Services sind, zeigen uns die vielen positiven Bewertungen,
-        die uns regelmäßig erreichen. Das sind nur drei von mehr als 100
-        Unternehmen, mit denen wir seit 2017 erfolgreich zusammengearbeitet
-        haben.
+        So denken unsere Kunden über uns Wie zufrieden unsere Kunden mit unseren Tracking und
+        Services sind, zeigen uns die vielen positiven Bewertungen, die uns regelmäßig erreichen.
+        Das sind nur drei von mehr als 100 Unternehmen, mit denen wir seit 2017 erfolgreich
+        zusammengearbeitet haben.
       </p>
       <div class="flex lg:flex-nowrap py-20 flex-wrap gap-8 justify-around">
         <div class="lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-lg bg-white shadow-md">
@@ -25,18 +22,12 @@
               src="~/assets/images/testimonial-1.png"
             />
             <p class="leading-relaxed">
-              Dies ist ein Analyse-Kraftpaket eines Dienstes. Erstaunliche
-              Menschen, die alles überliefern. Die beste Investition, die wir in
-              das Verständnis der Leistung unserer Geschäfte getätigt haben.
+              Dies ist ein Analyse-Kraftpaket eines Dienstes. Erstaunliche Menschen, die alles
+              überliefern. Die beste Investition, die wir in das Verständnis der Leistung unserer
+              Geschäfte getätigt haben.
             </p>
-            <span
-              class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"
-            ></span>
-            <h2
-              class="text-gray-900 font-medium capitalize tracking-wider text-sm"
-            >
-              jessica doe
-            </h2>
+            <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium capitalize tracking-wider text-sm">jessica doe</h2>
             <p class="text-gray-500">
               IT Department,
               <span class="text-green-500">Airport Zurich AG</span>
@@ -51,19 +42,12 @@
               src="~/assets/images/testimonial-2.jpg"
             />
             <p class="leading-relaxed">
-              Unser Shop hat ein komplexes Setup mit einigen externen Domains.
-              Das Ads-Tracking hat mit Google Tag Manager und Analytics 4 super
-              funktioniert. Auch beim Cross-Domain-Tracking hat uns der Support
-              sehr geholfen.
+              Unser Shop hat ein komplexes Setup mit einigen externen Domains. Das Ads-Tracking hat
+              mit Google Tag Manager und Analytics 4 super funktioniert. Auch beim
+              Cross-Domain-Tracking hat uns der Support sehr geholfen.
             </p>
-            <span
-              class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"
-            ></span>
-            <h2
-              class="text-gray-900 font-medium capitalize tracking-wider text-sm"
-            >
-              Anne Spies
-            </h2>
+            <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium capitalize tracking-wider text-sm">Anne Spies</h2>
             <p class="text-gray-500">
               Investor Relations Manager
               <span class="text-green-500">Hornbach</span>
@@ -78,18 +62,13 @@
               src="~/assets/images/testimonial-3.png"
             />
             <p class="leading-relaxed">
-              Diese Jungs sind das einzig Wahre; Wir hatten alles zur Verfügung
-              gestellt, um unsere Google Analytics-Tracking-Probleme mit unserem
-              Shopify-Shop zu beheben, aber nichts funktionierte. Sie haben
-              nicht nur das GA-Tracking behoben, sondern auch GA4 eingerichtet.
-              Einfach unglaublich.
+              Diese Jungs sind das einzig Wahre; Wir hatten alles zur Verfügung gestellt, um unsere
+              Google Analytics-Tracking-Probleme mit unserem Shopify-Shop zu beheben, aber nichts
+              funktionierte. Sie haben nicht nur das GA-Tracking behoben, sondern auch GA4
+              eingerichtet. Einfach unglaublich.
             </p>
-            <span
-              class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"
-            ></span>
-            <h2
-              class="text-gray-900 font-medium capitalize tracking-wider text-sm"
-            >
+            <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium capitalize tracking-wider text-sm">
               Mathias Tier
             </h2>
             <p class="text-gray-500">
