@@ -122,6 +122,6 @@ export default {
 
 <style scoped>
 a.router-link-active {
-  color: #34cc81;
+  @apply text-green-600;
 }
 </style>
