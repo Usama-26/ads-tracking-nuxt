@@ -29,28 +29,27 @@
           <NuxtLink
             to="/"
             class="desktop-link text-gray-500"
-            @click="handleActiveLink"
+            s
             :class="isScrolled ? 'hover:text-gray-900' : 'hover:text-gray-100'"
             >HOME</NuxtLink
           >
           <NuxtLink
             to="/services"
             class="desktop-link text-gray-500"
-            @click="handleActiveLink"
             :class="isScrolled ? 'hover:text-gray-900' : 'hover:text-gray-100'"
             >DIENSTLEISTUNGEN</NuxtLink
           >
           <NuxtLink
             to="/customers"
             class="desktop-link text-gray-500"
-            @click="handleActiveLink"
+            s
             :class="isScrolled ? 'hover:text-gray-900' : 'hover:text-gray-100'"
             >KUNDEN</NuxtLink
           >
           <NuxtLink
             to="/about"
             class="desktop-link text-gray-500"
-            @click="handleActiveLink"
+            s
             :class="isScrolled ? 'hover:text-gray-900' : 'hover:text-gray-100'"
             >ÜBER UNS
           </NuxtLink>
