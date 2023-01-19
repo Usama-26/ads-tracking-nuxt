@@ -67,7 +67,7 @@
             <ul class="text-sm">
               <li class="my-3 hover:text-gray-900 hover:underline">
                 <a href="mailto:anfrage@ads-tracking.de" class="inline-flex gap-1"
-                  ><EnvelopeIcon class="w-4 h-4" />@ads-tracking.de</a
+                  ><EnvelopeIcon class="w-4 h-4" />anfrage@ads-tracking.de</a
                 >
               </li>
               <li class="my-3 hover:text-gray-900 hover:underline">
