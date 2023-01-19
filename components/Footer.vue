@@ -4,13 +4,13 @@
       <div class="flex gap-8 md:flex-nowrap flex-wrap">
         <div class="flex md:flex-nowrap flex-wrap w-full gap-16">
           <div class="md:w-1/2 w-full">
-            <div class="mb-8">
+            <NuxtLink to="/" class="inline-block mb-8">
               <img
                 src="~/assets/images/ads-tracking-logo-white.svg"
                 alt="Ads Tracking Logo White"
                 class="md:w-60 w-96"
               />
-            </div>
+            </NuxtLink>
             <h3 class="font-bold text-sm leading-loose pb-4 lg:w-4/5">
               Mehr Umsatz & bessere Daten – Ihr Vorsprung mit serverseitigem Tracking
             </h3>

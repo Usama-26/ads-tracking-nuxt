@@ -14,9 +14,9 @@
           <span class="inline-block h-1 w-20 mt-4 rounded bg-[#34cc81]"></span>
         </div>
 
-        <div class="flex md:flex-row flex-col items-center lg:mx-20 mx-5 gap-16 mt-20">
-          <div class="bg-gray-200 rounded-md lg:w-72 -rotate-3">
-            <ul class="lg:m-0 mx-4 p-4 font-medium text-[18px]">
+        <div class="flex md:flex-row flex-col lg:mx-20 mx-5 gap-16 mt-10">
+          <div class="bg-gray-200 rounded-md basis-2/6 -rotate-3">
+            <ul class="lg:m-0 mx-4 xl:p-10 p-4 font-medium text-[18px]">
               <li class="my-2 flex gap-2">
                 <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
                 <span>Ich muss die Tracking-Qualität aufgrund von iOS 14 und 15 verbessern</span>
@@ -49,14 +49,14 @@
               </li>
             </ul>
           </div>
-          <div class="max-w-2xl flex flex-col gap-4 lg:text-xl text-md leading-7 font-medium">
-            <p>
+          <div class="basis-4/6 self-start lg:text-xl text-md leading-7 font-medium">
+            <p class="mb-8">
               Exakte Daten aus der Ad-Performance sind seit <b>IOS 14</b> und durch das zunehmende,
               teils sogar standardmäßig voreingestellte <b>Trackingverbot</b> auf den Endgeräten der
               User kaum noch zu bekommen. Die fatale Folge: Das <b>Browser-Tracking</b> bildet nur
               einen kleinen Prozentsatz der Daten ab.
             </p>
-            <p>
+            <p class="mb-8">
               Wenn von <b>10</b> Verkäufen nur <b>3</b> angezeigt werden, werden Budgets von Kunden
               zwangsläufig teils <b>verschleudert</b>, weil es gar keine exakte Möglichkeit der
               Kontrolle, Nachverfolgung und Optimierung der Kampagnen gibt. Damit lässt sich keine
