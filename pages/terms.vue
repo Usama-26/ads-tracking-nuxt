@@ -2,7 +2,7 @@
   <section class="text-gray-600 body-font svg_background">
     <div class="container pt-24 mx-auto">
       <div class="lg:mx-20 mx-5">
-        <h1 class="md:text-4xl text-3xl font-bold title-font text-gray-900">
+        <h1 class="md:text-4xl text-2xl font-bold title-font text-gray-900">
           Allgemeine Geschäftsbedingungen
         </h1>
         <span class="inline-block h-1 w-20 mt-4 rounded bg-[#34cc81]"></span>
