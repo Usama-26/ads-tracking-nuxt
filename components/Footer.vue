@@ -88,21 +88,21 @@
               <li class="my-3">
                 <NuxtLink
                   class="inline-block hover:text-gray-900 hover:translate-x-1 transition duration-300"
-                  to="home"
+                  to="/imprint"
                   >Impressum</NuxtLink
                 >
               </li>
               <li class="my-3">
                 <NuxtLink
                   class="inline-block hover:text-gray-900 hover:translate-x-1 transition duration-300"
-                  to="services"
+                  to="/terms"
                   >Allgemeine Geschäftsbedingungen</NuxtLink
                 >
               </li>
               <li class="my-3">
                 <NuxtLink
                   class="inline-block hover:text-gray-900 hover:translate-x-1 transition duration-300"
-                  to="customers"
+                  to="/dataprotection"
                   >Datenschutzerklärung</NuxtLink
                 >
               </li>

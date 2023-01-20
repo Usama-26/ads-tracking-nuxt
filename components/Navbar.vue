@@ -54,13 +54,15 @@
             >ÜBER UNS
           </NuxtLink>
         </nav>
-        <NuxtLink
-          to="/contact"
-          class="inline-flex items-center transition duration-200 py-2 px-6 focus:outline-none border hover:bg-green-600 hover:border-[#34cc81] uppercase font-bold rounded-full text-base mt-4 md:mt-0"
-          :class="isScrolled ? 'text-gray-100 bg-[#34cc81] ' : 'text-gray-100'"
+        <span class="contact-button">
+          <NuxtLink
+            to="/contact"
+            class="inline-flex items-center transition duration-200 py-2 px-6 focus:outline-none border hover:bg-green-600 hover:border-[#34cc81] uppercase font-bold rounded-full text-base mt-4 md:mt-0"
+            :class="isScrolled ? 'text-gray-100 bg-[#34cc81] ' : 'text-gray-100'"
+          >
+            KONTAKT
+          </NuxtLink></span
         >
-          KONTAKT
-        </NuxtLink>
       </div>
       <button type="button" class="lg:hidden z-10" @click="isToggled = !isToggled">
         <XMarkIcon v-if="isToggled" class="w-6 h-6 stroke-2 stroke-white" />
@@ -128,6 +130,9 @@ a.router-link-active {
   @apply text-green-600;
 }
 
+.contact-button > a.router-link-active {
+  @apply text-white;
+}
 .mobile-nav > a.router-link-active {
   @apply !text-white bg-[rgba(0,0,0,0.03)];
 }
