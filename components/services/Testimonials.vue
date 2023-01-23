@@ -17,7 +17,7 @@
         <div class="lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-lg bg-white shadow-md">
           <div class="h-full text-center">
             <img
-              alt="testimonial"
+              alt="testimonial_1"
               class="w-40 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
               src="~/assets/images/testimonial-1.png"
             />
@@ -37,7 +37,7 @@
         <div class="lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-lg bg-white shadow-md">
           <div class="h-full text-center">
             <img
-              alt="testimonial"
+              alt="testimonial_2"
               class="w-40 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
               src="~/assets/images/testimonial-2.jpg"
             />
@@ -57,7 +57,7 @@
         <div class="lg:w-1/3 lg:mb-0 p-4 rounded-lg bg-white shadow-md">
           <div class="h-full text-center">
             <img
-              alt="testimonial"
+              alt="testimonial_3"
               class="w-40 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
               src="~/assets/images/testimonial-3.png"
             />

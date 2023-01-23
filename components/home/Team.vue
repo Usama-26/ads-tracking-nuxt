@@ -19,7 +19,7 @@
           <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
             <div id="teamMember" class="relative flex flex-col items-center text-center">
               <img
-                alt="team"
+                alt="Bünyamin Alirkilicarslan"
                 class="flex-shrink-0 w-full h-60 object-cover object-center"
                 src="~/assets/images/team-1.jpg"
               />
@@ -34,7 +34,7 @@
           <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
             <div id="teamMember" class="relative flex flex-col items-center text-center">
               <img
-                alt="team"
+                alt="Sophia Becker"
                 class="flex-shrink-0 w-full h-60 object-cover object-center"
                 src="~/assets/images/team-2.jpg"
               />
@@ -49,7 +49,7 @@
           <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
             <div id="teamMember" class="relative flex flex-col items-center text-center">
               <img
-                alt="team"
+                alt="Ben Simon"
                 class="flex-shrink-0 w-full h-60 object-cover object-center"
                 src="~/assets/images/team-3.png"
               />
@@ -64,7 +64,7 @@
           <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
             <div id="teamMember" class="relative flex flex-col items-center text-center">
               <img
-                alt="team"
+                alt="Emilia Voigt"
                 class="flex-shrink-0 w-full h-60 object-cover object-center"
                 src="~/assets/images/team-4.png"
               />

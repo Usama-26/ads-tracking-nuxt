@@ -2,15 +2,12 @@
   <section class="text-gray-600">
     <div class="container lg:px-20 px-8 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
-        <h1
-          class="sm:text-3xl text-2xl title-font mb-4 capitalize font-bold text-gray-900"
-        >
+        <h1 class="sm:text-3xl text-2xl title-font mb-4 capitalize font-bold text-gray-900">
           Unsere Dienst­leistungen
         </h1>
         <p class="lg:w-2/3 mx-auto text-lg leading-relaxed">
-          Ihre Lösungen – unsere Leistungen | Alles aus einer Hand. Effizient.
-          Wirtschaftlich. Transparent. Dafür stehen wir schon seit 2017 als
-          Online Tracking Anbieter.
+          Ihre Lösungen – unsere Leistungen | Alles aus einer Hand. Effizient. Wirtschaftlich.
+          Transparent. Dafür stehen wir schon seit 2017 als Online Tracking Anbieter.
         </p>
       </div>
       <div class="grid xl:grid-cols-3 md:grid-cols-2 mx-auto">
@@ -20,19 +17,16 @@
           >
             <img
               src="~/assets/images/google-tag-manager.png"
-              alt="Card Image"
+              alt="Google Tag Manager"
               class="mx-auto mb-4"
             />
-            <h2
-              class="text-center text-sm title-font font-bold text-gray-800 mb-1"
-            >
+            <h2 class="text-center text-sm title-font font-bold text-gray-800 mb-1">
               Google Tag Manager (GTM)
             </h2>
 
             <p class="leading-relaxed mx-4 text-center h-48">
-              Fügen Sie GTM innerhalb einer Minute in Ihren Shopify-Shop ein und
-              erhalten Sie einen einsatzbereiten GTM-Container, der genau auf
-              Ihren Shop zugeschnitten ist.
+              Fügen Sie GTM innerhalb einer Minute in Ihren Shopify-Shop ein und erhalten Sie einen
+              einsatzbereiten GTM-Container, der genau auf Ihren Shop zugeschnitten ist.
             </p>
           </div>
         </div>
@@ -42,19 +36,16 @@
           >
             <img
               src="~/assets/images/google-analytics.png"
-              alt="Card Image"
+              alt="Google Analytics"
               class="mx-auto mb-4"
             />
-            <h2
-              class="text-center text-sm title-font font-bold text-gray-800 mb-1"
-            >
+            <h2 class="text-center text-sm title-font font-bold text-gray-800 mb-1">
               Google Analytics (GA4 + Universal)
             </h2>
 
             <p class="leading-relaxed mx-4 text-center h-48">
-              Richten Sie Google Analytics 4 (GA4) und Universal Analytics
-              Enhanced E-Commerce mit vielen benutzerdefinierten Dimensionen und
-              Metriken ein.
+              Richten Sie Google Analytics 4 (GA4) und Universal Analytics Enhanced E-Commerce mit
+              vielen benutzerdefinierten Dimensionen und Metriken ein.
             </p>
           </div>
         </div>
@@ -64,18 +55,16 @@
           >
             <img
               src="~/assets/images/google-analytics.png"
-              alt="Card Image"
+              alt="Google Analytics"
               class="mx-auto mb-4"
             />
-            <h2
-              class="text-center text-sm title-font font-bold text-gray-800 mb-1"
-            >
+            <h2 class="text-center text-sm title-font font-bold text-gray-800 mb-1">
               Erweiterte Datalayer
             </h2>
 
             <p class="leading-relaxed mx-4 text-center h-48">
-              Erweiterte Datenebenen für alle verfügbaren Ereignisse und Daten.
-              Klicken Sie hier für eine vollständige Aufschlüsselung.
+              Erweiterte Datenebenen für alle verfügbaren Ereignisse und Daten. Klicken Sie hier für
+              eine vollständige Aufschlüsselung.
             </p>
           </div>
         </div>
@@ -85,19 +74,16 @@
           >
             <img
               src="~/assets/images/google-ads-conversion.png"
-              alt="Card Image"
+              alt="Ads Conversion"
               class="mx-auto mb-4"
             />
-            <h2
-              class="text-center text-sm title-font font-bold text-gray-800 mb-1"
-            >
+            <h2 class="text-center text-sm title-font font-bold text-gray-800 mb-1">
               Google Ads-Conversions
             </h2>
 
             <p class="leading-relaxed mx-4 text-center h-48">
-              Richten Sie Mikro- und Makro-Conversions ein, erhalten Sie alle
-              Verkaufsdaten und bereiten Sie Remarketing in Ihrem Google
-              Ads-Konto vor.
+              Richten Sie Mikro- und Makro-Conversions ein, erhalten Sie alle Verkaufsdaten und
+              bereiten Sie Remarketing in Ihrem Google Ads-Konto vor.
             </p>
           </div>
         </div>
@@ -107,18 +93,16 @@
           >
             <img
               src="~/assets/images/facebook-pixel-event.png"
-              alt="Card Image"
+              alt="Facebook Pixel Event"
               class="mx-auto mb-4"
             />
-            <h2
-              class="text-center text-sm title-font font-bold text-gray-800 mb-1"
-            >
+            <h2 class="text-center text-sm title-font font-bold text-gray-800 mb-1">
               Facebook-Pixel-Ereignisse
             </h2>
 
             <p class="leading-relaxed mx-4 text-center h-48">
-              Holen Sie sich alle wichtigen Ereignisse in Ihrem Facebook-Pixel
-              zusammen mit Ihren dynamischen Retargeting-Listen.
+              Holen Sie sich alle wichtigen Ereignisse in Ihrem Facebook-Pixel zusammen mit Ihren
+              dynamischen Retargeting-Listen.
             </p>
           </div>
         </div>
@@ -128,19 +112,16 @@
           >
             <img
               src="~/assets/images/30-plus-integrations.png"
-              alt="Card Image"
+              alt="Integrations"
               class="mx-auto mb-4"
             />
-            <h2
-              class="text-center text-sm title-font font-bold text-gray-800 mb-1"
-            >
+            <h2 class="text-center text-sm title-font font-bold text-gray-800 mb-1">
               Über 30 Integrationen
             </h2>
 
             <p class="leading-relaxed mx-4 text-center h-48">
-              Mit unseren erweiterten DataLayers und dem GTM Setup können Sie
-              Pinterest, Twitter, Linkedin, Tiktok und viele andere Plattformen
-              integrieren.
+              Mit unseren erweiterten DataLayers und dem GTM Setup können Sie Pinterest, Twitter,
+              Linkedin, Tiktok und viele andere Plattformen integrieren.
             </p>
           </div>
         </div>
@@ -150,18 +131,16 @@
           >
             <img
               src="~/assets/images/30-plus-integrations.png"
-              alt="Card Image"
+              alt="Integrations"
               class="mx-auto mb-4"
             />
-            <h2
-              class="text-center text-sm title-font font-bold text-gray-800 mb-1"
-            >
+            <h2 class="text-center text-sm title-font font-bold text-gray-800 mb-1">
               Serverseitiges Tagging
             </h2>
 
             <p class="leading-relaxed mx-4 text-center h-48">
-              Vollständige serverseitige Tagging-Einrichtung, einschließlich
-              serverseitigem GTM, Analytics, Google Ads und FB Conversion API.
+              Vollständige serverseitige Tagging-Einrichtung, einschließlich serverseitigem GTM,
+              Analytics, Google Ads und FB Conversion API.
             </p>
           </div>
         </div>
@@ -171,19 +150,16 @@
           >
             <img
               src="~/assets/images/30-plus-integrations.png"
-              alt="Card Image"
+              alt="Integrations"
               class="mx-auto mb-4"
             />
-            <h2
-              class="text-center text-sm title-font font-bold text-gray-800 mb-1"
-            >
+            <h2 class="text-center text-sm title-font font-bold text-gray-800 mb-1">
               FB-Konvertierungs-API
             </h2>
 
             <p class="leading-relaxed mx-4 text-center h-48">
-              Alle Ereignisse für FB CAPI sind in unserem serverseitigen
-              Tagging-Add-On mit einer Ereignisübereinstimmungsrate von über 8,8
-              enthalten.
+              Alle Ereignisse für FB CAPI sind in unserem serverseitigen Tagging-Add-On mit einer
+              Ereignisübereinstimmungsrate von über 8,8 enthalten.
             </p>
           </div>
         </div>
@@ -193,18 +169,16 @@
           >
             <img
               src="~/assets/images/30-plus-integrations.png"
-              alt="Card Image"
+              alt="Integrations"
               class="mx-auto mb-4"
             />
-            <h2
-              class="text-center text-sm title-font font-bold text-gray-800 mb-1"
-            >
+            <h2 class="text-center text-sm title-font font-bold text-gray-800 mb-1">
               Weltklasse-Support
             </h2>
 
             <p class="leading-relaxed mx-4 text-center h-48">
-              Wir helfen Ihnen gerne mit unserem Kundenerfolgsteam,
-              Datenspezialisten und Entwicklern.
+              Wir helfen Ihnen gerne mit unserem Kundenerfolgsteam, Datenspezialisten und
+              Entwicklern.
             </p>
           </div>
         </div>

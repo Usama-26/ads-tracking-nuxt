@@ -5,7 +5,7 @@
         <div class="flex gap-4">
           <img
             src="~/assets/images/testimonials/shop_logo.jpeg"
-            alt="Shop Image"
+            alt="Shop"
             class="self-start h-12 w-12"
           />
           <div class="w-full">
@@ -105,7 +105,7 @@
                 <div class="flex mb-4 gap-2">
                   <img
                     src="~/assets/images/testimonials/alyena.png"
-                    alt="larissa"
+                    alt="Alyena"
                     class="drop-shadow-md"
                   />
                   <div>
@@ -133,7 +133,7 @@
                 <div class="flex mb-4 gap-2">
                   <img
                     src="~/assets/images/testimonials/regina.png"
-                    alt="larissa"
+                    alt="regina"
                     class="drop-shadow-md"
                   />
                   <div>
@@ -160,7 +160,7 @@
                 <div class="flex mb-4 gap-2">
                   <img
                     src="~/assets/images/testimonials/rene_ostertag.png"
-                    alt="larissa"
+                    alt="rene_ostertag"
                     class="drop-shadow-md"
                   />
                   <div>
@@ -187,7 +187,7 @@
                 <div class="flex mb-4 gap-2">
                   <img
                     src="~/assets/images/testimonials/joël_irniger.png"
-                    alt="larissa"
+                    alt="Joel_Irniger"
                     class="drop-shadow-md"
                   />
                   <div>
@@ -217,7 +217,7 @@
                 <div class="flex mb-4 gap-2">
                   <img
                     src="~/assets/images/testimonials/eyup_karaver.png"
-                    alt="larissa"
+                    alt="Eyup Karaver"
                     class="drop-shadow-md"
                   />
                   <div>
@@ -247,7 +247,7 @@
                 <div class="flex mb-4 gap-2">
                   <img
                     src="~/assets/images/testimonials/anton_perl.png"
-                    alt="larissa"
+                    alt="Anton Perl"
                     class="drop-shadow-md"
                   />
                   <div>
@@ -280,7 +280,7 @@
                 <div class="flex mb-4 gap-2">
                   <img
                     src="~/assets/images/testimonials/boss.png"
-                    alt="larissa"
+                    alt="Boss"
                     class="drop-shadow-md"
                   />
                   <div>

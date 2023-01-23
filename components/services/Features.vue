@@ -54,7 +54,7 @@
             </div>
           </div>
           <img
-            alt="ecommerce"
+            alt="Know How"
             class="lg:w-1/2 w-full my-8 object-center object-contain rounded"
             src="~/assets/images/know-how-img.png"
           />
@@ -66,7 +66,7 @@
       <div class="container px-8 lg:px-20 py-20 lg:py-24 mx-auto">
         <div class="mx-auto flex flex-wrap justify-between">
           <img
-            alt="ecommerce"
+            alt="Google Tag Manager"
             class="lg:w-1/2 w-full object-cover object-center rounded"
             src="~/assets/images/google-tag-manager-banner.png"
           />
@@ -82,29 +82,29 @@
             </p>
             <ul class="lg:m-0 mx-4">
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Für Sie erledigt: Setup-Option, bei der wir alles für Sie einrichten</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span
                   >Google Analytics (GA4 + UA), Google Ads, Facebook Pixel und viele andere</span
                 >
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span
                   >Vorgefertigter GTM-Container mit den wichtigsten Tags, Triggern und
                   Variablen</span
                 >
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" /><span
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" /><span
                   >Kundenspezifische Sonderlösungen möglich</span
                 >
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" /><span
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" /><span
                   >Tests & Datenvalidierung</span
                 >
               </li>
@@ -127,31 +127,31 @@
             </p>
             <ul class="lg:m-0 mx-4">
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Das kürzlich eingeführte, neue Google Analytics: GA4</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Mehrere Analytics-Properties (GA4 + Universal Analytics)</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span> Benutzerdefinierte Dimensionen, Metriken und Berichte</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" /><span
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" /><span
                   >Benutzer Metriken wie Benutzerneuheit, -Typ, -Häufigkeit etc.</span
                 >
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" /><span
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" /><span
                   >Tests & Datenvalidierung</span
                 >
               </li>
             </ul>
           </div>
           <img
-            alt="ecommerce"
+            alt="Google Analytics"
             class="lg:w-1/2 w-full order-1 lg:order-2 object-center object-contain rounded"
             src="~/assets/images/google-analytics-banner.png"
           />
@@ -195,31 +195,31 @@
             </p>
             <ul class="lg:m-0 mx-4">
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Tags für die Remarketing-Einrichtung</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Ereignisverfolgung</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Conversion-Tracking</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" /><span
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" /><span
                   >Produktansichten</span
                 >
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" /><span
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" /><span
                   >Tests & Datenvalidierung</span
                 >
               </li>
             </ul>
           </div>
           <img
-            alt="ecommerce"
+            alt="Google Analytics"
             class="lg:w-1/2 w-full order-1 lg:order-2 object-center object-contain rounded"
             src="~/assets/images/google-analytics-banner.png"
           />
@@ -231,7 +231,7 @@
       <div class="container px-8 lg:px-20 py-20 lg:py-24 mx-auto">
         <div class="mx-auto flex flex-wrap">
           <img
-            alt="ecommerce"
+            alt="Facebook Pixel Event"
             class="lg:w-1/2 w-full object-cover object-center rounded"
             src="~/assets/images/facebook-pixel-event-banner.png"
           />
@@ -244,19 +244,19 @@
             </p>
             <ul class="lg:m-0 mx-4">
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Ereignisverfolgung. (in den Warenkorb legen, zur Kasse gehen, kaufen)</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Produktansichten</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Conversion-Tracking</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" /><span
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" /><span
                   >Tests & Datenvalidierung</span
                 >
               </li>
@@ -280,31 +280,31 @@
             </p>
             <ul class="lg:m-0 mx-4">
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Produkte mit der besten/schlechtesten Leistung.</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Kampagnen mit der besten/schlechten Leistung.</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Geografische Analyse.</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" /><span
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" /><span
                   >E-Commerce-Trichter</span
                 >
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" /><span
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" /><span
                   >Viele andere wichtige Metriken.</span
                 >
               </li>
             </ul>
           </div>
           <img
-            alt="ecommerce"
+            alt="Google Data Studio"
             class="lg:w-1/2 w-full order-1 lg:order-2 object-center object-contain rounded"
             src="~/assets/images/google-data-studio.png"
           />
@@ -316,7 +316,7 @@
       <div class="container px-8 lg:px-20 py-20 lg:py-24 mx-auto">
         <div class="mx-auto flex flex-wrap">
           <img
-            alt="ecommerce"
+            alt="Google Data Analytics"
             class="lg:w-1/2 w-full object-cover object-center rounded"
             src="~/assets/images/google-data-analytics-banner.png"
           />
@@ -331,19 +331,19 @@
             </p>
             <ul class="list-disc mx-4 lg:m-0">
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Datenanalyse-Gesundheitscheck für Ihre Konten</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Analysieren Sie die Done-For-You-Setup-Option</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Maßgeschneiderte, einzigartige Lösungen für Ihre Bedürfnisse</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Tests & Datenvalidierung</span>
               </li>
             </ul>

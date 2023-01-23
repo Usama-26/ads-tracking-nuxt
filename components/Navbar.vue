@@ -12,14 +12,14 @@
         <img
           v-if="!isScrolled"
           src="~/assets/images/ads-tracking-logo.svg"
-          alt="Ads Tracking"
+          alt="Ads Tracking Logo"
           class="lg:w-96 sm:w-72 w-56"
           :src="{ '~/assets/images/ads-tracking-logo-white.svg': isScrolled }"
         />
         <img
           v-else
           src="~/assets/images/ads-tracking-logo-white.svg"
-          alt="Ads Tracking"
+          alt="Ads Tracking Logo"
           class="lg:w-96 sm:w-72 w-56"
         />
       </NuxtLink>

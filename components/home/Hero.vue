@@ -29,7 +29,7 @@
       <div class="lg:max-w-lg self-start lg:w-full md:w-2/5 md:block hidden">
         <img
           class="object-cover object-center rounded"
-          alt="hero"
+          alt="Google Data Analytics Banner"
           src="~assets/images/google-data-analytics-banner.png"
         />
       </div>

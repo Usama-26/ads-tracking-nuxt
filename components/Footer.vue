@@ -7,7 +7,7 @@
             <NuxtLink to="/" class="inline-block mb-8">
               <img
                 src="~/assets/images/ads-tracking-logo-white.svg"
-                alt="Ads Tracking Logo White"
+                alt="Ads Tracking Logo"
                 class="md:w-60 w-96"
               />
             </NuxtLink>

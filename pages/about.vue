@@ -5,7 +5,7 @@
       <div class="container px-5 lg:px-20 py-20 mx-auto">
         <div class="mx-auto flex flex-wrap justify-between">
           <img
-            alt="ecommerce"
+            alt="image_2"
             class="lg:w-1/2 w-full h-2/4 self-center object-cover object-center rounded"
             src="~/assets/images/about-img_2.jpg"
           />
@@ -66,7 +66,7 @@
         <div class="mx-auto flex items-center lg:flex-nowrap flex-wrap gap-12">
           <div class="lg:w-1/2 w-full">
             <img
-              alt="ecommerce"
+              alt="image_1"
               class="object-center object-contain rounded"
               src="~/assets/images/about-img_1.jpg"
             />

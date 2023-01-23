@@ -18,32 +18,32 @@
           <div class="bg-gray-200 rounded-md basis-2/6 -rotate-3">
             <ul class="lg:m-0 mx-4 xl:p-10 p-4 font-medium text-[18px]">
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Ich muss die Tracking-Qualität aufgrund von iOS 14 und 15 verbessern</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>Ich möchte die Conversion-Genauigkeit maximieren</span>
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" />
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" />
                 <span>
                   Meine Agentur braucht mich, um mein Tracking für Google Ads, Facebook, GA zu
                   korrigieren</span
                 >
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" /><span
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" /><span
                   >Meine Datenschicht für den Google Tag Manager ist ein Durcheinander</span
                 >
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" /><span
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" /><span
                   >Ich benötige Tracking, das DSGVO-konform ist</span
                 >
               </li>
               <li class="my-2 flex gap-2">
-                <img src="~/assets/icons/checkbox.svg" alt="checkbox" class="self-start" /><span
+                <img src="~/assets/icons/checkbox.svg" alt="check" class="self-start" /><span
                   >Ich vertraue meinen Google Analytics-Daten nicht</span
                 >
               </li>
@@ -132,11 +132,7 @@
           </div>
           <div class="lg:w-1/3 w-full">
             <div class="flex rounded-xl h-full shadow-lg text-center bg-white p-8 flex-col">
-              <img
-                src="~/assets/images/money-filter.svg"
-                alt="Laptop Icon"
-                class="w-24 h-24 mx-auto"
-              />
+              <img src="~/assets/images/money-filter.svg" alt="Filter" class="w-24 h-24 mx-auto" />
 
               <h2 class="font-bold text-xl my-4 text-gray-900">
                 Messen Sie Ihre Multi-Channel-Werbung
@@ -157,7 +153,7 @@
           </div>
           <div class="lg:w-1/3 w-full">
             <div class="flex rounded-xl h-full shadow-lg text-center bg-white p-8 flex-col">
-              <img src="~/assets/images/cookies.svg" alt="Laptop Icon" class="w-24 h-24 mx-auto" />
+              <img src="~/assets/images/cookies.svg" alt="Cookies Icon" class="w-24 h-24 mx-auto" />
               <h2 class="font-bold text-xl my-4 text-gray-900">
                 Überwinden Sie die Herausforderung der Cookie-Blindheit
               </h2>

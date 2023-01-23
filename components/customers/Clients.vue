@@ -9,34 +9,34 @@
       </div>
       <div class="lg:mx-20 grid grid-cols-3 md:gap-8">
         <div class="border-b-4 border-gray-500/50 hover:border-white transition duration-300">
-          <img src="~/assets/images/clients/hornbach_weiss.png" alt="hornbach Weiss image" />
+          <img src="~/assets/images/clients/hornbach_weiss.png" alt="hornbach Weiss Logo" />
         </div>
         <div class="border-b-4 border-gray-500/50 hover:border-white transition duration-300">
-          <img src="~/assets/images/clients/banknow_weiss.png" alt="banknow image" />
+          <img src="~/assets/images/clients/banknow_weiss.png" alt="banknow Logo" />
         </div>
         <div class="border-b-4 border-gray-500/50 hover:border-white transition duration-300">
-          <img src="~/assets/images/clients/wallis.png" alt="Wallis image" />
+          <img src="~/assets/images/clients/wallis.png" alt="Wallis Logo" />
         </div>
         <div class="border-b-4 border-gray-500/50 hover:border-white transition duration-300">
-          <img src="~/assets/images/clients/ramseier.png" alt="Ramseier image" />
+          <img src="~/assets/images/clients/ramseier.png" alt="Ramseier Logo" />
         </div>
         <div class="border-b-4 border-gray-500/50 hover:border-white transition duration-300">
-          <img src="~/assets/images/clients/sanitas.png" alt="Sanitas image" />
+          <img src="~/assets/images/clients/sanitas.png" alt="Sanitas Logo" />
         </div>
         <div class="border-b-4 border-gray-500/50 hover:border-white transition duration-300">
-          <img src="~/assets/images/clients/dieci.png" alt="Dieci image" />
+          <img src="~/assets/images/clients/dieci.png" alt="Dieci Logo" />
         </div>
         <div class="border-b-4 border-gray-500/50 hover:border-white transition duration-300">
-          <img src="~/assets/images/clients/starbucks.png" alt="Starbucks image" />
+          <img src="~/assets/images/clients/starbucks.png" alt="Starbucks Logo" />
         </div>
         <div class="border-b-4 border-gray-500/50 hover:border-white transition duration-300">
-          <img src="~/assets/images/clients/mobiliar.png" alt="Mobiliar image" />
+          <img src="~/assets/images/clients/mobiliar.png" alt="Mobiliar Logo" />
         </div>
         <div class="border-b-4 border-gray-500/50 hover:border-white transition duration-300">
-          <img src="~/assets/images/clients/wingo.png" alt="Wingo image" />
+          <img src="~/assets/images/clients/wingo.png" alt="Wingo Logo" />
         </div>
         <div class="border-b-4 border-gray-500/50 hover:border-white transition duration-300">
-          <img src="~/assets/images/clients/flughafen_zuerich.png" alt="Flughafen Zeurich image" />
+          <img src="~/assets/images/clients/flughafen_zuerich.png" alt="Flughafen Zeurich Logo" />
         </div>
 
         <div class="border-b-4 border-gray-500/50 hover:border-white transition duration-300">
