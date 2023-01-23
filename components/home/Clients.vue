@@ -11,7 +11,8 @@
           breakpoints: {
             640: {
               perPage: 2,
-              perMove: 3,
+              perMove: 2,
+              speed: 2000,
               autoWidth: true,
             },
           },
